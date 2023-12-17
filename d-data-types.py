@@ -1,20 +1,20 @@
 print('\n >>>> Data Type Example');
 print('15 Types of Data Types');
-print('>>>> Text Type');
+print('>>>> 1st. Text Type');
 print('1. string\n')
-print('>>>> Numeric Type');
+print('>>>> 2nd Numeric Type');
 print('2. int, 3. float, 4. complex\n')
-print('>>>> Sequence Type');
+print('>>>> 3rd Sequence Type');
 print('5. list, 6. tuple, 7. range\n')
-print('>>>> Mapping Type');
+print('>>>> 4th Mapping Type');
 print('8. dict\n')
-print('>>>> Set Type');
+print('>>>> 5th Set Type');
 print('9. set, 10. frozenset\n')
-print('>>>> Boolean Type');
+print('>>>> 6th Boolean Type');
 print('11. bool\n')
-print('>>>> Binary Type');
+print('>>>> 7th Binary Type');
 print('11. bytes, 12. byteArray, 13. memoryView\n')
-print('>>>> None Type');
+print('>>>> 8th None Type');
 print('11. None\n')
 
 greet = 'welcome' # String
