@@ -1,3 +1,8 @@
+print('\n >>>> Variable Example');
+print("Variable name should start with alpha-numeric characters, _ or string");
+print("Variable name should not start with numbers, hyphen");
+print("Variable names are case sensitive");
+
 # Multiple Variables
 print("\n>>>> Multiple Variables");
 x, y, z = 1, 2, "Three"
