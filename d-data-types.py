@@ -17,3 +17,8 @@ weight = 75.50 # Float for Weight in Kg
 print(f"\n>>> Type of weight is {type(weight)}")
 castToFloat = float('75.50')
 print(f">>> Type of castToFloat is {type(castToFloat)}")
+
+fruits = ["apple", "banana", "cherry"] # List for fruits
+print(f"\n>>> Type of fruits is {type(fruits)}")
+# castToFloat = float('75.50')
+# print(f">>> Type of castToFloat is {type(castToFloat)}")
