@@ -31,3 +31,31 @@ print(" >>>> when no parameter passed throws TypeError: greet() missing 1 requir
 print(" >>>> passing name parameter returns Hello John");
 name = 'John';
 greet(name);
+
+# Global Variable
+print('\n >>>> Global and Local Variable Samples');
+myAge = 21
+
+def afterGraduation():
+    myAge = 24
+    # myAge will be overwritten as 24.
+    print(f"afterGraduation: I'm {myAge} yeard old") 
+    
+# myAge will return global value 21.
+afterGraduation()
+print(f"outside afterGraduation: I'm {myAge} yeard old") 
+
+# Global Variable with global keyword.
+print('\n >>>> Global Variable with global keyword');
+
+manhood = "bachelor"
+
+def afterMarriage():
+    global manhood
+    print(f"in afterMarriage before change: I'm {manhood}") 
+    manhood = "Husband"
+    print(f"in afterMarriage after change: I'm {manhood}") 
+    
+# myAge will return global value Husband.
+afterMarriage()
+print(f"outside afterMarriage: I'm {manhood}") 
