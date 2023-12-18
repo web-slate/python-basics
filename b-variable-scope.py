@@ -56,6 +56,6 @@ def afterMarriage():
     manhood = "Husband"
     print(f"in afterMarriage after change: I'm {manhood}") 
     
-# myAge will return global value Husband.
+# manhood will return global value Husband.
 afterMarriage()
-print(f"outside afterMarriage: I'm {manhood}") 
+print(f"outside afterMarriage: I'm {manhood}")
