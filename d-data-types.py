@@ -53,3 +53,4 @@ print("\n>>> Boolean Type")
 eligibleToVote = True # Boolean
 print(f">>> Type of eligibleToVote is {type(eligibleToVote)}")
 print('eligibleToVote: ', eligibleToVote);
+
