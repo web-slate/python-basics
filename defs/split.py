@@ -1,23 +1,25 @@
-a = "Hello, World!"
-b = a.split(",")
-print("Using Split function: ", b)
+print('\n >>>> Split String Example');
+
+original = "Hello, World!"
+target = original.split(",")
+print("Using Native Split function: ", target)
 
 
 def splitString(text, sepearator):
   word = ''
-  list_ = []
+  splitted_list = []
   
   for i in text:
     if i == sepearator:
-        list_.append(word)
+        splitted_list.append(word)
         word = ''
     else:
         word += i
   
   if word != '':
-      list_.append(word)
+      splitted_list.append(word)
 
-  return list_
+  return splitted_list
 
-print('Using Custom function: ', splitString('Hello, World!', ','));
+print('Using Custom function: ', splitString(original, ','))
 print('Custom Def Time and Space Complexity is O(n)')
