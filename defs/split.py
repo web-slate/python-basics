@@ -4,6 +4,7 @@ original = "Hello, World!"
 target = original.split(",")
 print("Using Native Split function: ", target)
 
+# Faced `TabError: inconsistent use of tabs and spaces in indentation`
 
 def splitString(text, sepearator):
   word = ''
