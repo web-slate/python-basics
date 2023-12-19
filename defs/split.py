@@ -10,12 +10,12 @@ def splitString(text, sepearator):
   word = ''
   splitted_list = []
   
-  for i in text:
-    if i == sepearator:
+  for char in text:
+    if char == sepearator:
         splitted_list.append(word)
         word = ''
     else:
-        word += i
+        word += char
   
   if word != '':
       splitted_list.append(word)
