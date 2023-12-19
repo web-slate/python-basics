@@ -46,14 +46,17 @@ print('\n >>>> Accessing from last to 4 characters but skip last character in th
 print(' >>>> Find the characters from last index to 4 characters with skipping last character')
 print(greet[-4:-1]); # return `come`
 
-print('\n >>>> Iterate the Greet String and print each charactor')
+print('\n >>>> Iteration Example')
+print(' >>>> Iterate the Greet String and print each charactor')
 for character in greet:
     print(f"character: {character}")
 
-print('\n >>>> Find a Length of greet String')
+print('\n >>>> Find Length Example')
+print(' >>>> Find a Length of greet String')
 print('greet length', len(greet))
 
-print('\n >>>> Find whether `w` string exist in greet variable using `in` keyword')
+print('\n >>>> `in / not in` Exist Check Example')
+print(' >>>> Find whether `w` string exist in greet variable using `in` keyword')
 print('w' in greet)
 
 print('\n >>> Use `in` statement in `if` statement as well')
@@ -64,3 +67,15 @@ print('\n >>> Use `in` statement in `if` statement as well')
 if 'u' not in greet:
     print('u Not exist in greet variable')
 
+print('\n >>>> Format Example')
+designation = 'Full Stack engineer'
+company = 'Meta Inc'
+location = 'Singapore'
+product = 'Meta Enterprise Platform'
+print(' >>>> format() method takes unlimited number of argument. Example');
+about = 'I am currently {} at {} and working in {}.'
+print(about.format(designation, company, location))
+
+print('\n >>>> format() with index numbers')
+info = 'hey i work for {1} in {0} as {2}'
+print(info.format(location, company, designation))
