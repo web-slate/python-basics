@@ -22,4 +22,4 @@ print_and_assert(number_length, 4325, 4)
 print_and_assert(number_length, 734250, 6)
 print_and_assert(number_length, 52734250, 8)
 
-getTestResult()
+getTestResult('Number Length')
