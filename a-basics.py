@@ -35,7 +35,7 @@ print('hello venkat, welcome to python' + version)
 # Concatenation with string variable wrapped in String literal.
 print('\n >>>> String variable wrapped in String literal.')
 version = '3';
-print(f"hello venkat, welcome to python{str(version)}")
+print(f"hello venkat, welcome to python{version}")
 
 
 # Simple Hello World Function throws IndentationError when function body statement with zero indentation.
