@@ -7,13 +7,13 @@ def flag_failure():
 def failure_count():
     return failures
 
-def print_and_assert(method, param, expected):
+def print_and_assert(function_name, param, expected):
     try:
-        assert method(param) == expected
-        print(f'✅ Pass: {method.__name__}({param}) is returning {expected} as expected')
+        assert function_name(param) == expected
+        print(f'✅ Pass: {function_name.__name__}({param}) is returning {expected} as expected')
     except AssertionError:
         flag_failure()
-        print(f'❌ AssertionError: {method.__name__}({param}) is returning {method(param)} but `{expected}` is expected')
+        print(f'❌ AssertionError: {function_name.__name__}({param}) is returning {function_name(param)} but `{expected}` is expected')
         
 def getTestResult(testName):
     if (failure_count() > 0):
