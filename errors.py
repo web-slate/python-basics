@@ -14,3 +14,8 @@ print('NameError: name 'hoistedVariable' is not defined')
 print('undefined errors')
 
 print("TypeError: greet() missing 1 required positional argument: 'name'")
+
+print('SyntaxError: non-default argument follows default argument')
+
+print("TypeError: isEligibleToVote() missing 1 required positional argument: 'aaaa'")
+print('Solution: We should provide default value else it will be considered required parameter')
