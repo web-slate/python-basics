@@ -5,4 +5,6 @@ print(' >>> Create N number of List element with same value')
 print([7] * 4);
 
 print('\n >>>> Tuple Data Type Example')
+print((1,2) * 4);
+
 print('\n >>>> Complex Data Type Example')
