@@ -26,7 +26,8 @@ print(f">>> Type of castToString is {type(castToString)}")
 # Number Data Type Variables
 currentYear = 2024 # int for year
 print(f"\n>>> Type of currentYear is {type(currentYear)}")
-castToInteger = int(2024)
+castToInteger = int(2024.00)
+print(f">>> Type of castToInteger is {type(castToInteger)}")
 
 weight = 75.50 # Float for Weight in Kg
 print(f"\n>>> Type of weight is {type(weight)}")
@@ -54,3 +55,6 @@ eligibleToVote = True # Boolean
 print(f">>> Type of eligibleToVote is {type(eligibleToVote)}")
 print('eligibleToVote: ', eligibleToVote);
 
+# TODO
+# Add Bytes
+# Add None examples
