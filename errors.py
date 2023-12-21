@@ -19,3 +19,6 @@ print('SyntaxError: non-default argument follows default argument')
 
 print("TypeError: isEligibleToVote() missing 1 required positional argument: 'aaaa'")
 print('Solution: We should provide default value else it will be considered required parameter')
+
+print('ValueError: Exceeds the limit (4300 digits) for integer string conversion: value has 5000 digits; use sys.set_int_max_str_digits() to increase the limit')
+print('Solution: you need to set like `sys.set_int_max_str_digits(10000)`')
