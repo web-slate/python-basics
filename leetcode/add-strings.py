@@ -21,8 +21,6 @@ class Solution(object):
             result = f'{value}{result}'
             num1_index -= 1
             num2_index -= 1
-            
-        print ('out in carry ', carry)
 
         if (carry != 0):
             result = f'{carry}{result}'
