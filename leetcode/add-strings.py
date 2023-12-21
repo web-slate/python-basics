@@ -27,12 +27,13 @@ class Solution(object):
 
         return result
 
-print('\n >>> Add Two Strings')
+
 solution = Solution()
+print('\n >>> Add Two Strings - Brute Force')
 print_and_assert_new(solution.addStrings, '11', '123', expected='134')
 print_and_assert_new(solution.addStrings, '456', '77', expected='533')
 print_and_assert_new(solution.addStrings, '0', '0', expected='0')
-getTestResult('Add Two Strings')
+getTestResult('Add Two Strings - Brute Force')
 
-timeComplexity('O(n)', '')
-spaceComplexity('O(1)', '')
+timeComplexity('O(n^2)', '')
+spaceComplexity('O(n)', '')
