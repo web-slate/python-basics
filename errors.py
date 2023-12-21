@@ -10,7 +10,7 @@ print("SyntaxError: Missing parentheses in call to 'print'. Did you mean print(.
 
 print('TypeError: can only concatenate str (not "int") to str')
 
-print('NameError: name 'hoistedVariable' is not defined')
+print("NameError: name 'hoistedVariable' is not defined")
 print('undefined errors')
 
 print("TypeError: greet() missing 1 required positional argument: 'name'")
@@ -22,3 +22,6 @@ print('Solution: We should provide default value else it will be considered requ
 
 print('ValueError: Exceeds the limit (4300 digits) for integer string conversion: value has 5000 digits; use sys.set_int_max_str_digits() to increase the limit')
 print('Solution: you need to set like `sys.set_int_max_str_digits(10000)`')
+
+print('SyntaxError: trailing comma not allowed without surrounding parentheses');
+print('Import statement should not end with comma')
