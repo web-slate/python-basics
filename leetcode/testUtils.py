@@ -7,6 +7,11 @@ def flag_failure():
 def failure_count():
     return failures
 
+def solution_title(title):
+    print('=' * 70)
+    print(f'>>> {title}')
+    print('=' * 70)
+
 def print_and_assert(function_name, param, expected):
     try:
         assert function_name(param) == expected
