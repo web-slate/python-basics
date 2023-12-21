@@ -3,27 +3,26 @@ Python Basics
 
 # Data Structure in Python
 
-| Data Structure        | Python Data Type or Implementation Note |
-|-----------------------|-----------------------------------------|
-| Array                 | List (`list`)                           |
-| Stack                 | List (`list`) with stack operations (`append` and `pop`) |
-| Queue                 | `collections.deque` (double-ended queue) |
-| Priority Queue        | `queue.PriorityQueue` or `heapq` module for heap-based priority queues |
-| Linked List           | No native type; implement with a class using nodes and pointers |
-| Doubly Linked List    | No native type; implement with a class using nodes with two pointers (next and prev) |
-| Circular Linked List  | No native type; implement with a class where the last node points back to the first |
-| Set                   | Set (`set`)                             |
-| Dictionary (Hash Map) | Dictionary (`dict`)                     |
-| Tuple                 | Tuple (`tuple`)                         |
-| Binary Tree           | No native type; implement with a class for nodes and pointers to child nodes |
-| Binary Search Tree    | No native type; implement with a class and ensure ordered insertion and deletion |
-| Graph                 | No native type; implement using dictionaries or adjacency lists/matrices |
-| Heap (Binary Heap)    | `heapq` (module for heap queue operations) |
-| Trie                  | No native type; implement with a class using nodes with a dictionary of children |
-| B-Tree                | No native type; implement with a class, multiple child nodes per tree node |
-| Red-Black Tree        | No native type; implement with a class, maintaining balancing during insertions and deletions |
-| AVL Tree              | No native type; implement with a class, maintaining height balance of nodes |
-| Skip List             | No native type; implement with multiple layers of linked lists for faster access |
+| Standard Data Structure | Implementation Note or Python Equivalent      |
+|-------------------------|----------------------------------------------|
+| Array                   | Implemented as List in Python                |
+| Stack                   | Can be implemented using a List with append and pop methods |
+| Queue                   | Can be implemented using collections.deque   |
+| Priority Queue          | Can be implemented using queue.PriorityQueue or heapq |
+| Set                     | Implemented as Set in Python                 |
+| Linked List             | No native type; can be implemented using classes with nodes |
+| Doubly Linked List      | No native type; can be implemented with nodes having previous and next pointers |
+| Circular Linked List    | No native type; can be implemented with nodes where the last node links to the first |
+| Skip List               | No native type; can be implemented with multiple levels of linked lists for efficient search |
+| Hash Map                | Implemented as Dictionary in Python          |
+| Heap                    | `heapq` can be used for heap operations in Python |
+| Trie                    | No native type; can be implemented with nodes containing a dictionary of children |
+| Binary Tree             | No native type; can be implemented using classes with node references |
+| Binary Search Tree      | No native type; can be implemented with ordered insertion and deletion in a binary tree structure |
+| B-Tree                  | No native type; typically used in databases and file systems; can be implemented using classes with multiple child nodes |
+| Red-Black Tree          | No native type; can be implemented with self-balancing properties during insertions and deletions |
+| AVL Tree                | No native type; can be implemented with self-balancing properties based on node heights |
+| Graph                   | No native type; can be implemented with adjacency lists or matrices |
 
 
 
