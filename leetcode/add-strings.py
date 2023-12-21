@@ -29,6 +29,23 @@ class addTwoStrings(object):
             result = f'{carry}{result}'
 
         return result
+    def timeOptimized(self, num1, num2):
+        result_list = []
+        carry = 0
+        num1_index, num2_index = len(num1) - 1, len(num2) - 1
+
+        while num1_index >= 0 or num2_index >= 0 or carry:
+            first_num = int(num1[num1_index]) if num1_index >= 0 else 0
+            second_num = int(num2[num2_index]) if num2_index >= 0 else 0
+
+            total = first_num + second_num + carry
+            carry = total // 10
+            result_list.append(str(total % 10))
+
+            num1_index -= 1
+            num2_index -= 1
+
+        return ''.join(reversed(result_list))
 
 
 solution = addTwoStrings()
@@ -47,5 +64,11 @@ print_and_assert_new(solution.brute_force, '456', '77', expected='533')
 print_and_assert_new(solution.brute_force, '0', '0', expected='0')
 getTestResult('Add Two Strings - Brute Force')
 
-timeComplexity('O(n^2)', 'Quadratic, due to string concatenation in a loop. Space complexity')
-spaceComplexity('O(n)', 'Linear for storing the result string.')
+solution_title('Add Two Strings - Time Optimized')
+print_and_assert_new(solution.timeOptimized, '11', '123', expected='134')
+print_and_assert_new(solution.timeOptimized, '456', '77', expected='533')
+print_and_assert_new(solution.timeOptimized, '0', '0', expected='0')
+getTestResult('Add Two Strings - Time Optimized')
+
+timeComplexity('O(n + m)', 'Linear by doing key changes like Using a List (result_list), reversed and joined into a single string.\n    Reversing a list is O(n), and joining is also O(n), resulting in an overall O(n)')
+spaceComplexity('O(n + m)', 'Linear due to primary space consumption is from result_list, which grows to size O(n + m). ')
