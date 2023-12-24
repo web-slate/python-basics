@@ -34,32 +34,32 @@
     
         # print('start: ', start, word[start], ' end: ', end, word[end]);
 
-def is_palindrome(s):
-    s = s.lower()  # Convert to lower case, but keep spaces
-    start, end = 0, len(s) - 1
+# def is_palindrome(s):
+#     s = s.lower()  # Convert to lower case, but keep spaces
+#     start, end = 0, len(s) - 1
 
-    while start < end:
-        # Skip spaces in the start pointer
-        while start < end and s[start] == " ":
-            start += 1
+#     while start < end:
+#         # Skip spaces in the start pointer
+#         while start < end and s[start] == " ":
+#             start += 1
 
-        # Skip spaces in the end pointer
-        while end > start and s[end] == " ":
-            end -= 1
+#         # Skip spaces in the end pointer
+#         while end > start and s[end] == " ":
+#             end -= 1
 
-        # Compare characters
-        if s[start] != s[end]:
-            return False
+#         # Compare characters
+#         if s[start] != s[end]:
+#             return False
 
-        start += 1
-        end -= 1
+#         start += 1
+#         end -= 1
 
-    return True
+#     return True
 
-phrases = ["EVIL OLIVE", "TACO CAT", "HUH", "DO GEESE SEE GOD", "BORE ME ROB", "RISE SIR", "MADAM", "DIVE VID"]
-results = {phrase: is_palindrome(phrase) for phrase in phrases}
+# phrases = ["EVIL OLIVE", "TACO CAT", "HUH", "DO GEESE SEE GOD", "BORE ME ROB", "RISE SIR", "MADAM", "DIVE VID"]
+# results = {phrase: is_palindrome(phrase) for phrase in phrases}
 
-print(results)
+# print(results)
 
 
 
@@ -75,4 +75,18 @@ Additional Index (4-0)
 ===
 9-0
 '''
+
+def multiply(a, b):
+    try:
+        # Perform an arithmetic operation that will fail for non-numeric types
+        test = (a + b) - b
+        return a * b
+    except:
+        # If an error occurs, return the error message
+        return "Invalid parameter '#'"
+
+# Test the function with various inputs
+print(multiply(7, 5))      # Valid numerical input
+print(multiply(7, "abc"))  # Invalid input
+print(multiply("xyz", 3))  # Invalid input
 
