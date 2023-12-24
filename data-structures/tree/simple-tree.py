@@ -15,7 +15,7 @@ class TreeNode:
         nodes = [self]
         while len(nodes) > 0:
             current_node = nodes.pop()
-            print('current_node: ', current_node.value)
+            print('>', current_node.value)
             nodes += current_node.children
 
 ceo = TreeNode('CEO')
