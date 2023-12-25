@@ -10,3 +10,15 @@
 | `2^n`     | Exponential growth relative to the input size           | Subset generation (of a set with `n` elements)   |
 | `n!`      | Factorial of the input size                             | Permutations (finding all permutations of `n` items) |
 
+### Complexity Graph
+
+![image](https://github.com/web-slate/python-basics/assets/1652629/c99fd9dd-4073-4f99-9660-6ec052e35d12)
+
+- Constant O(1)
+- Logarithmic O(log n)
+- Linear O(n)
+- Linearithmic O(n log n)
+- Quadratic O(n^2)
+- Cubic O(n^3)
+- Exponential O(2^n)
+
