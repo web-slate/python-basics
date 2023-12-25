@@ -1,0 +1,12 @@
+### Time Complexity Notations and Examples
+
+| Character | Description                                             | Example Problem                                  |
+|-----------|---------------------------------------------------------|--------------------------------------------------|
+| `n`       | Size of the input                                       | Linear Search (searching an array of size `n`)   |
+| `k`       | A specific portion of the input or a constant           | String Slicing (slicing a substring of length `k`)|
+| `m`       | Another input dimension, often used with `n`            | Matrix Operations (on an `m x n` matrix)         |
+| `log n`   | Logarithm of the input size                             | Binary Search (in a sorted array of size `n`)    |
+| `n^2`     | Square of the input size                                | Bubble Sort (sorting an array of size `n`)       |
+| `2^n`     | Exponential growth relative to the input size           | Subset generation (of a set with `n` elements)   |
+| `n!`      | Factorial of the input size                             | Permutations (finding all permutations of `n` items) |
+
