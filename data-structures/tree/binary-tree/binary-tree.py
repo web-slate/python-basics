@@ -8,3 +8,4 @@ print('   / \\')
 print('  B   C')
 print(' /   / \\')
 print('D   E   F')
+
