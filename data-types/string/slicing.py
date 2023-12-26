@@ -43,4 +43,3 @@ print(transaction_timestamp[-8:-3])
 
 print('\n >>>> Get Time String Revered', '[::-1]')
 print(transaction_timestamp[::-1])
-
