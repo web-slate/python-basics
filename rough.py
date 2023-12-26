@@ -75,18 +75,3 @@ Additional Index (4-0)
 ===
 9-0
 '''
-
-def multiply(a, b):
-    try:
-        # Perform an arithmetic operation that will fail for non-numeric types
-        test = (a + b) - b
-        return a * b
-    except:
-        # If an error occurs, return the error message
-        return "Invalid parameter '#'"
-
-# Test the function with various inputs
-print(multiply(7, 5))      # Valid numerical input
-print(multiply(7, "abc"))  # Invalid input
-print(multiply("xyz", 3))  # Invalid input
-
