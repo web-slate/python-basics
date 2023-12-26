@@ -1,6 +1,8 @@
+import data_types.integer.iterations as iterations
+
 print('\n >>>> Float Iteration Example')
 
-mark = 78.80
+mark = 78.88
 weight = 68.50
 height = 6.3
 distance = 10.2
@@ -36,15 +38,16 @@ number = 78.88
 # print('rounded_fractional_part_2', rounded_fractional_part_2)
 
 def iterateWithoutTypeCasting(float_number):
-    int_part = int(float_number)
-    stack = []
-    while int_part > 0:
-        digit = int_part % 10
-        stack.append(digit)
-        int_part //= 10
-    
-    while stack:
-        print(stack.pop())
+    i=1
+
+    f = float_number
+    while True:
+        if round(f, i) * (10**i) - f*(10**i) ==0:
+            break
+        i+=1
+        num = f*(10**i)
+
+    iterations.iterateInteger(int(num))
 
 
 iterateWithoutTypeCasting(mark)
