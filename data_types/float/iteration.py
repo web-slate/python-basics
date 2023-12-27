@@ -1,3 +1,5 @@
+# Run command - python -m data_types.float.iteration data_types/float/iteration.py
+
 import data_types.integer.iterations as iterations
 
 print('\n >>>> Float Iteration Example')
