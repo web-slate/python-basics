@@ -52,11 +52,12 @@ def iterateWithoutTypeCasting(float_number):
     iterations.iterateInteger(int(num))
 
 
-iterateWithoutTypeCasting(mark)
+# iterateWithoutTypeCasting(mark)
 # iterateWithoutTypeCasting(weight)
 # iterateWithoutTypeCasting(height)
 # iterateWithoutTypeCasting(distance)
 # iterateWithoutTypeCasting(price)
 # iterateWithoutTypeCasting(latitude)
+iterateWithoutTypeCasting(longitude)
 
 # print('\n >>>> Iterate using for loop with range')
