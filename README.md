@@ -1,4 +1,4 @@
-# python-basics
+# Python Basics
 Python Basics
 
 # Data Structure in Python
