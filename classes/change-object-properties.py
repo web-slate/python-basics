@@ -1,0 +1,1 @@
+print("Inside a class")
