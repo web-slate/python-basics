@@ -1,5 +1,7 @@
 import data_types.commonUtils as utils
 
+utils.print_h1('List Basics')
+
 utils.print_ordered_list([
     'List is Ordered (order will not be changed)',
     'List is Changable'
