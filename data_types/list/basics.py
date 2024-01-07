@@ -1,27 +1,29 @@
-'''
-1. Ordered (order will not be changed)
-2. Changable
-'''
+import data_types.commonUtils as utils
+
+utils.print_ordered_list([
+    'List is Ordered (order will not be changed)',
+    'List is Changable'
+])
 
 fruits = ['apple', 'orange', 'cherry']
-print('fruits: ', fruits)
-
-print('Access Apple: fruits[0]: ', fruits[0], '\n')
+print('\nCreated fruits list: ', fruits)
+print('Access Apple: fruits[0]: ', fruits[0])
 print('Adding New Fruit: Grape')
 fruits.append('grapes')
 print('Picking Last item from fruit:', fruits[-1])
 
 print('Iterating the Fruits')
 for fruit in fruits:
-    print(fruit)
+    print(' - ', fruit)
 
 marks = [78, 90, 75, 61, 90]
+print('\nCreated marks list: ', marks);
 marks.reverse()
-print('Reverse the Marks: ', marks);
+print('Reversed the Marks using reverse(): ', marks);
 marks.sort()
-print('Sort the Marks in ascending: ', marks);
+print('Sort the Marks in ascending using sort(): ', marks);
 marks.sort(reverse=True)
-print('Sort the Marks in descending: ', marks);
+print('Sort the Marks in descending using sort(reverse=True): ', marks);
 print('marks : ', marks)
 
 conf = [True, False]
