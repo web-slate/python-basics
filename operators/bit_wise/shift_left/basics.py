@@ -10,6 +10,10 @@ LRU Cache
 Middle of Linked List
 '''
 
+import data_types.commonUtils as utils
+
+utils.print_h1('Tuple Basics')
+
 n = 1
 original_value = 3
 # original_value * (2^n)
