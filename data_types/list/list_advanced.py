@@ -74,10 +74,10 @@ modifying the original list's elements won't affect the shallow copy,
 
 print(text)
 
-original_list = [(1, 2, 3), (4, 5, 6),[7, 8, 9]]
+original_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 shallow_copy = original_list.copy()
 # Modifying an element inside the list
-original_list[0] = (4, 2, 3)
+original_list[0][0] = 10
 
 print("original list", original_list)  # Output: [[10, 2, 3], [4, 5, 6], [7, 8, 9]]
 print("shallow_copy", shallow_copy)   # Output: [[10, 2, 3], [4, 5, 6], [7, 8, 9]]
