@@ -1,18 +1,24 @@
-'''
-Efficient Multiplication
-Power of Two Operations
-Setting and Clearing Bits
-
-Two Sum
-Valid Parentheses
-Maximum Subarray
-LRU Cache
-Middle of Linked List
-'''
+# python module.py operators/bit_wise/shift_left/basics.py
 
 import data_types.commonUtils as utils
 
-utils.print_h1('Tuple Basics')
+utils.print_h1('Shift Left Basics')
+
+utils.print_h2('Shift Left can be used in ..')
+utils.print_ordered_list([
+    'Efficient Multiplication',
+    'Power of Two Operations',
+    'Setting and Clearing Bits'
+])
+
+utils.print_h2('Using Leet code problems ..')
+utils.print_ordered_list([
+    'Two Sum',
+    'Valid Parentheses',
+    'Maximum Subarray',
+    'LRU Cache',
+    'Middle of Linked List'
+])
 
 n = 1
 original_value = 3
@@ -20,6 +26,7 @@ original_value = 3
 multiplication_without_shift_operator = original_value * 2**n
 multiplication_with_shift_left_operator = original_value << n
 
+print('\n')
 print('n is', n, ' = multiplication_without_shift_operator: ', multiplication_without_shift_operator)
 print('n is', n, ' = multiplication_with_shift_left_operator: ', multiplication_with_shift_left_operator)
 
