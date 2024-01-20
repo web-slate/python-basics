@@ -26,7 +26,11 @@ def binary_search_in_iterative(input_array, search_value):
     
     return False
 
-print('>>> Imagine you are working with a dataset of recorded temperatures in a city, logged every hour over a week. This dataset is sorted by the temperature values. You want to find the first occurrence of a specific temperature, say 15°C, in this dataset.')
+print("""
+>>> Sample Problem: Imagine you are working with a dataset of recorded temperatures in a city, logged every hour over a week. 
+This dataset is sorted by the temperature values. You want to find the first occurrence of a specific temperature, say 15°C, in this dataset.
+""")
+
 print('>>> Binary Search in Recursive');
 
 input_array = [10, 11, 12, 13, 14, 15, 15, 15, 16, 17, 18, 19, 20]
