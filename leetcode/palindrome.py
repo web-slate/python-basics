@@ -1,3 +1,4 @@
+from tabulate import tabulate
 print("frute force solution")
 print("""===================""")
 
@@ -19,10 +20,10 @@ print("Optimised solution")
 print("""===================""")
 
 def is_valid(s: str) -> bool:
-  cleaned_string = ''.join(char.lower() for char in s if char.isalnum())
-  left, right = 0 , len(cleaned_string) - 1
+  s = ''.join(char.lower() for char in s if char.isalnum())
+  left, right = 0 , len(s) - 1
   while left < right:
-    if cleaned_string[left] != cleaned_string[right]:
+    if s[left] != s[right]:
       return False
     else:
       left += 1
@@ -33,3 +34,13 @@ s = 'mam , () test'
 print(f"given {s} { ' palindrome ' if is_valid(s) else ' is not palindrome'}")
 s = 'mam ()'
 print(f"given {s} { ' palindrome ' if is_valid(s) else ' is not palindrome'}")
+
+table_data = [
+    ["Approach", "Time Complexity", "Example Code"],
+    ["Brute-Force", "O(n)", "is_palindrome_bruteforce_string(s)"],
+    ["Optimized", "O(n/2) = O(n)", "is_palindrome_optimized_string(s)"]
+]
+
+table = tabulate(table_data, headers="firstrow", tablefmt="fancy_grid")
+
+print(table)
