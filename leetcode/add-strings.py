@@ -1,5 +1,5 @@
-from testUtils import solution_title, print_and_assert_new, getTestResult
-from commonUtils import timeComplexity, spaceComplexity
+from utilities.testUtils import solution_title, print_and_assert_new, getTestResult
+from utilities.commonUtils import timeComplexity, spaceComplexity
 
 print('\n >>> 415. Add Two Strings')
 print('''
