@@ -19,18 +19,19 @@
 
 ## Non Linear
 
-| Data Structure | Operation Types                         | Real-time Examples                                | 
-| -------------- | --------------------------------------- | ------------------------------------------------- | 
-| Tree           | Insert, Delete, Traversal               | 1. Organizational chart of a company              |
-|                |                                         | 2. Family tree showing genealogical relationships       |
-| Graph          | Add/Remove Vertex, Add/Remove Edge, Search, Path Finding | 1. Road network where intersections are nodes and roads are edges         |
-|                |                                         | 2. Facebook's friend network, where users are nodes and friendships are edges                      |
-| Heap           | Insert, Delete, Find Max/Min            | 1. Used in priority scheduling where jobs with higher priority are processed first    |
-|                |                                         | 2. Finding the largest or smallest element quickly in a dataset    |
-| Hash Table     | Insert, Delete, Access                  | 1. Indexing a book; word as key and page number as value        |
-|                |                                         | 2. Storing and accessing user information on a website by username               |
-| Set            | Add, Remove, Contains                   | 1. Unique collection of items (e.g., tags in a blog post) |
-|                |                                         | 2. Filtering duplicates from a list               |
-| Trie           | Insert, Search, Delete                  | 1. Auto-complete functionality in search engines  |
-|                |                                         | 2. Spell checker in word processors               |
+| Data Structure | Types                                   | Operation Types                                              | Real-time Examples                               | 
+| -------------- | --------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------ | 
+| Tree           | Binary Tree, AVL Tree, Red-Black Tree   | Insert, Delete, Traversal                                    | 1. Organizational chart of a company             |
+|                | B-Tree, Binary Search Tree, N-ary Tree  |                                                              | 2. Family tree showing genealogical relationships|
+| Graph          | Directed, Undirected, Weighted          | Add/Remove Vertex, Add/Remove Edge, Search, Path Finding     | 1. Road network (intersections and roads)        |
+|                | Graph, Tree, Acyclic Graph              |                                                              | 2. Facebook's friend network                     |
+| Heap           | Binary Heap, Fibonacci Heap             | Insert, Delete, Find Max/Min                                 | 1. Priority scheduling (higher priority first)   |
+|                | Min Heap, Max Heap                      |                                                              | 2. Finding the largest/smallest element quickly  |
+| Hash Table     | Chaining, Open Addressing               | Insert, Delete, Access                                       | 1. Book indexing (word and page number)          |
+|                | Linear Probing, Quadratic Probing       |                                                              | 2. User info on website by username              |
+| Set            | Hash Set, Tree Set                      | Add, Remove, Contains                                        | 1. Unique collection of items (tags in a blog)   |
+|                |                                         |                                                              | 2. Filtering duplicates from a list              |
+| Trie           | Basic Trie, Compressed Trie             | Insert, Search, Delete                                       | 1. Auto-complete in search engines               |
+|                | Radix Trie, Suffix Trie                 |                                                              | 2. Spell checker in word processors              |
+
 
