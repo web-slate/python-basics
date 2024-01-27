@@ -19,8 +19,6 @@
 | -------------- | ------------------------------------------------ | 
 | Tree           | 1. Organizational chart of a company             |
 |                | 2. Family tree showing genealogical relationships|
-| Binary Tree    | 1. Binary Search Tree used in database for efficient data retrieval |
-|                | 2. Decision tree in a chess game for possible moves |
 | Graph          | 1. Road network where intersections are nodes and roads are edges |
 |                | 2. Facebook's friend network, where users are nodes and friendships are edges |
 | Heap           | 1. Used in priority scheduling where jobs with higher priority are processed first |
