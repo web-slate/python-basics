@@ -2,16 +2,19 @@
 
 ## Linear
 
-| Data Structure | Operation Types                         | Real-time Examples                               | 
-| -------------- | --------------------------------------- | ------------------------------------------------ | 
-| Array          | Access, Insert, Delete (fixed size)     | 1. Days in a week: ["Mon", "Tue", ...]           |
-|                |                                         | 2. Temperature readings: [72, 68, ...]           |
-| Linked List    | Access, Insert, Delete (dynamic size)   | 1. Music playlist (each song to the next)        |
-|                |                                         | 2. Treasure hunt (each clue to the next location)|
-| Stack          | Push, Pop, Peek                         | 1. Pile of plates (last on, first off)           |
-|                |                                         | 2. Undo in software (last action reversed first) |
-| Queue          | Enqueue, Dequeue, Peek                  | 1. Line at a bank counter                        |
-|                |                                         | 2. Call center queue                             |
+| Data Structure | Types                                      | Operation Types                                              | Real-time Examples                               | 
+| -------------- | ------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------ | 
+| Array          | Fixed-size, Dynamic Array                  | Access, Insert, Delete (fixed size)                          | 1. Days in a week: ["Mon", "Tue", ...]           |
+|                |                                            |                                                              | 2. Temperature readings: [72, 68, ...]           |
+| Linked List    | Single, Doubly, Circular                    | Access, Insert, Delete in Head (First Item)                  | 1. Music playlist (each song to the next)        |
+|                |                                            | Access, Insert, Delete in Tail (Last Item)                   | 2. Treasure hunt (each clue to the next location)|
+|                |                                            | Access, Insert, Delete in Middle Node                        |                                                  |
+|                |                                            | Search for a Value                                           |                                                  |
+| Stack          | Array-based, Linked List-based             | Push, Pop, Peek                                              | 1. Pile of plates (last on, first off)           |
+|                |                                            |                                                              | 2. Undo in software (last action reversed first) |
+| Queue          | Simple Queue, Circular Queue, Priority Queue | Enqueue, Dequeue, Peek                                       | 1. Line at a bank counter                        |
+|                |                                            |                                                              | 2. Call center queue                             |
+
 
 
 ## Non Linear
