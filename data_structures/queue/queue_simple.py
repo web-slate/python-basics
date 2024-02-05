@@ -19,17 +19,18 @@ class QueueSimple:
   def size(self):
     return len(self.queue)
   
-  def display(self):
+  def print_all_items(self):
     if self.is_empty():
       raise Exception("Queue is empty")
     return ','. join([str(i) for i in self.queue])
   
 queue = QueueSimple()
-for i in range(10, 50, 10):
+for i in ['Suba', 'Venkat' ,'Gutti', 'Yuvraj']:
   queue.enqueue(i) 
-print("Queue items", queue.display())
 
-print("Dequeue from the queue item")
+print("Queue: ", queue.print_all_items())
+
+print("Dequeue the person from the queue")
 queue.dequeue()
-print("Queue item after dequeue", queue.display())
+print("Queue: ", queue.print_all_items())
 
