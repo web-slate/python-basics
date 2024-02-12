@@ -4,8 +4,6 @@
 import data_types.commonUtils as utils
 
 utils.print_h1('Tuple Basics')
-
-utils.print_h1('Tuple Basics')
 utils.print_ordered_list([
     'Tuple is Ordered (order will not be changed)',
     'Tuple is Immutable',
