@@ -71,9 +71,20 @@ except KeyError:
 utils.print_blockquote([
     'By IN Operator: (\'name\' in employee): ' + name_key_exist,
     'By keys() Method: (\'notname\' in employee.keys()): ' + name_key_exist_key_list,
-    'By Try Catch Block (not recommended)' + try_catch_block_exist_check
+    'By Try Catch Block (not recommended): ' + try_catch_block_exist_check
 ])
 
 utils.print_h1('Add / Insert')
+
+employee['designation'] = 'Software Engineer'
+employee.update({
+  'age': '34'
+})
+utils.print_blockquote([
+    'By key-value assignment: employee[\'designation\'] = \'Software Engineer\': ' + employee['designation'],
+    'By key-value assignment: employee.update({\'age\': \'34\'}): ' + employee['age'],
+])
+
+
 utils.print_h1('Remove / Delete')
 utils.print_h1('Iteration')
