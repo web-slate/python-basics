@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "ms-python.python", // Python extension (Linting, Debugging, IntelliSense, etc.)
+    "ms-toolsai.jupyter", // Jupyter Notebooks support
+    "ms-vscode.cpptools", // C/C++ extension (useful if you are using Python with C/C++ bindings)
+    "VisualStudioExptTeam.vscodeintellicode", // AI-assisted IntelliSense
+    "njpwerner.autodocstring", // Auto-generates Python docstrings
+    "ms-azuretools.vscode-docker", // Docker support (useful for containerized applications)
+    "formulahendry.code-runner", // Run code snippet or code file
+    "github.vscode-pull-request-github" // Review and manage GitHub pull requests and issues
+  ]
+}
