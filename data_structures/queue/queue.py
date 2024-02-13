@@ -1,20 +1,21 @@
 print("""
-LifoQueue Class:
-A Last In, First Out (LIFO) queue, also known as a stack. It is useful when you need a stack-like behavior.
-Example: from queue import LifoQueue
+Queue Class:
+The basic FIFO queue. It is often used for thread-safe communication between threads in a multithreaded environment.
+Example: from queue import Queue
 """)
-from queue import LifoQueue
 
-class CustomLifoQueue:
+from queue import Queue
+
+class CustomQueue:
   def __init__(self):
-    self.queue = LifoQueue()
+    self.queue = Queue()
 
   def enqueue(self, item):
     """Add an item to the end of the queue."""
     self.queue.put(item)
 
   def dequeue(self):
-    """Remove and return the last item from the queue."""
+    """Remove and return the first item from the queue."""
     if not self.is_empty():
       return self.queue.get()
     else:
@@ -30,16 +31,16 @@ class CustomLifoQueue:
     return self.queue.qsize()
 
   def peek(self):
-    """Return the last item in the queue without removing it."""
+    """Return the first item in the queue without removing it."""
     if not self.is_empty():
-      return self.queue.queue[-1]
+      return self.queue.queue[0]
     else:
       print("Queue is empty")
       return None
 
 # Example usage:
 if __name__ == "__main__":
-  grocery_queue = CustomLifoQueue()
+  grocery_queue = CustomQueue()
   print("Initial queue:", list(grocery_queue.queue.queue))
 
   # Adding people to the queue
