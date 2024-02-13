@@ -18,12 +18,12 @@ class ValidParenthesis(object):
         prev_length = -1
         while prev_length != len(s):
             prev_length = len(s)
-            s = s.replace(param1, '').replace('{}', '').replace('[]', '')
+            s = s.replace('()', '').replace('{}', '').replace('[]', '')
         return s == ''
     def brute_force(self, s):
         # Using replace function.
-        while param1 in s or '{}' in s or '[]' in s:
-            s = s.replace(param1, '').replace('{}', '').replace('[]', '')
+        while '()' in s or '{}' in s or '[]' in s:
+            s = s.replace('()', '').replace('{}', '').replace('[]', '')
         return s == ''
     def sub_optimal(self, s):
         # Using Stack DS through List.
