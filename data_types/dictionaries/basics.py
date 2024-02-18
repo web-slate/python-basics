@@ -45,6 +45,17 @@ utils.print_blockquote([
 
 utils.pretty_json(employee)
 
+utils.print_blockquote([
+    'Lets add list and tuple as key and printing the employee again'
+])
+
+marks = [100,70,90]
+subjects = ('english', 70)
+# employee[marks] = 10 #throws TypeError: unhashable type: 'list'
+employee[subjects] = 20
+
+utils.pretty_json(employee)
+
 utils.print_h1('Access')
 utils.print_blockquote([
     'By Key: employee[\'name\']: ' + employee['name'],

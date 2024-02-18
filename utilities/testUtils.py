@@ -11,6 +11,9 @@ def solution_title(title):
     print('=' * 70)
     print(f'>>> {title}')
     print('=' * 70)
+    
+def reason_points(title):
+    print(f'How ?{title}')
 
 def print_and_assert(function_name, param, expected):
     try:
