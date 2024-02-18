@@ -43,8 +43,15 @@ print('\n >>>> Simple Hello World Function throws IndentationError when function
 print(' >>>> Fix is 4 tabs after def statement');
 def helloWorld():
 # You will get IndentationError: expected an indented block after function definition on line 47
+# In Python, the execution order is typically from top to bottom, line by line.
+# Python first compiles your code into bytecode before it executes it. During the compilation phase, it checks for syntax errors. 
+# if there is an IndentationError during compilation anywhere in your code, Python will not execute any part of the script because the error is caught during the compilation phase.
 #print('\nHello World from helloWorld()')
     print('\nHello World from helloWorld()')
 
 # Calling the function
 helloWorld()
+
+fruits = 'Apple'
+
+print(fruits[::-1])
