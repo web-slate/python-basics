@@ -6,7 +6,7 @@ print('''
 Desc goes here
 ''')
 
-class problemName(object):
+class ProblemName(object):
     def quick(self, s):
         pass
     def brute_force(self, s):
@@ -29,7 +29,7 @@ param3 = 'param3'
 param33 = 'param33'
 expect3 = 'expect3'
 
-solution = problemName()
+solution = ProblemName()
 solution_title('ProblemName - Quick One')
 print_and_assert_new(solution.quick, param1, param11, expected=expect1)
 print_and_assert_new(solution.quick, param2, param22, expected=expect2)
