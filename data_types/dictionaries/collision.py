@@ -22,15 +22,15 @@ utils.print_ordered_list([
     'Efficiency of a hashing algorithm lies in minimizing these collisions and dealing with them effectively when they occur.'
 ])
 
-hashing_algorithm_by_languages = [
-    ("Java", "Java's HashMap uses a variant of hashing with chaining for collision resolution.",
-     "O(1) for get/put operations", "O(n)"),
-    ("Scala", "Scala's standard library collections use similar approaches to Java, often built on top of Java's collections.",
-     "O(1) for get/put operations", "O(n)"),
-    ("Python", "Python's dictionaries use a combination of open addressing and random probing.",
-     "O(1) for access/search/insert/delete", "O(n)"),
-    ("Node.js", "In JavaScript (Node.js), objects and Maps use similar hashing techniques with chaining.",
-     "O(1) for access/search/insert/delete", "O(n)"),
-    (".NET", ".NET's Dictionary class uses a version of chaining for collision resolution.",
-     "O(1) for get/put operations", "O(n)")
-]
+print('''
+| Language   | Hashing Algorithm           |
+|------------|-----------------------------|
+| Python     | SipHash                     |
+| Java       | Object.hashCode() method (varies based on object; often a variation of DJB2) |
+| JavaScript | V8 (Chrome, Node.js): One-at-a-time (variations) |
+|            | SpiderMonkey (Firefox): DJB2 (variations) |
+|            | JavaScriptCore (Safari): Engine-specific implementation |
+| C#         | .NET Framework: Marvin32 (with modifications) |
+| Go         | AEAD (AES-GCM) based algorithm |
+
+''');
