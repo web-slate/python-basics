@@ -1,12 +1,12 @@
-employee = {
-    'name': 'Alice',
-    'age': 30,
-    'items': ['book', 'pen', 'notebook'],
-    'nested_dict': {
-        'key1': 'value1',
-        'key2': 'value2'
-    }
-}
+# employee = {
+#     'name': 'Alice',
+#     'age': 30,
+#     'items': ['book', 'pen', 'notebook'],
+#     'nested_dict': {
+#         'key1': 'value1',
+#         'key2': 'value2'
+#     }
+# }
 
 # for key in employee:
 #   print('key: ', key)
@@ -84,3 +84,49 @@ employee = {
 # print('racecar: ', is_palindrome_brute_force("racecar"))  # True
 # print('hello: ', is_palindrome_brute_force("hello"))  # False
 # print('A man, a plan, a canal: Panama: ', is_palindrome_brute_force("A man, a plan, a canal: Panama"))  # True
+
+n = 2
+arr_1 = [2, 1]
+output_1 = [2, 2]
+arr_2 = [1, 2]
+output_2 = [1, 1]
+
+def findSignatureCounts_1(arr):
+  n = len(arr)
+  output = [0] * n
+
+  for i in range(n):
+    signatures = 0
+    index = i
+    for _ in range(n):
+      signatures += 1
+      print(i, _)
+      index = arr[index] - 1
+      print('   >', index, arr[index])
+      if (index == i):
+        break
+
+    output[i] = signatures
+  return output
+
+print(arr_1, findSignatureCounts_1(arr_1) == output_1)
+print(arr_2, findSignatureCounts_1(arr_2) == output_2)
+
+
+    # n = len(arr)
+    # signatures = [0] * n
+    # visited = [False] * n
+
+    # for i in range(n):
+    #     if not visited[i]:
+    #         count = 0
+    #         j = i
+    #         while not visited[j]:
+    #             visited[j] = True
+    #             j = arr[j] - 1
+    #             count += 1
+    #         while arr[j] - 1 != i:
+    #             signatures[j] = count
+    #             j = arr[j] - 1
+    #         signatures[j] = count
+    # return signatures
