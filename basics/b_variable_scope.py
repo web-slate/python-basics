@@ -41,8 +41,8 @@ def afterGraduation():
     print(f"inside afterGraduation: I'm {myAge} yeard old") 
     
 # myAge will return global value 21.
+print(f"outside before afterGraduation call: I'm {myAge} year old") 
 afterGraduation()
-print(f"outside afterGraduation: I'm {myAge} yeard old") 
 
 # Global Variable with global keyword.
 print('\n >>>> Global Variable with global keyword')
