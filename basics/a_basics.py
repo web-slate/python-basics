@@ -21,6 +21,8 @@ print('hello venkat, welcome to python' + '3')
 # Concatenation with int variable
 print('\n >>>> Concatenation with int variable and string throws TypeError')
 version = 3;
+# Your will get TypeError: unsupported operand type(s) for +: 'int' and 'str'
+# print(version + 'hello venkat, welcome to python')
 # Your will get TypeError: can only concatenate str (not "int") to str.
 # print('hello venkat, welcome to python' + version)
 print('\n >>>> Concatenation of int variable and string Issue fix should be with str() function')
@@ -46,7 +48,7 @@ def helloWorld():
 # In Python, the execution order is typically from top to bottom, line by line.
 # Python first compiles your code into bytecode before it executes it. During the compilation phase, it checks for syntax errors. 
 # if there is an IndentationError during compilation anywhere in your code, Python will not execute any part of the script because the error is caught during the compilation phase.
-#print('\nHello World from helloWorld()')
+# print('\nHello World from helloWorld()')
     print('\nHello World from helloWorld()')
 
 # Calling the function
