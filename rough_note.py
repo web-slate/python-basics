@@ -85,32 +85,32 @@
 # print('hello: ', is_palindrome_brute_force("hello"))  # False
 # print('A man, a plan, a canal: Panama: ', is_palindrome_brute_force("A man, a plan, a canal: Panama"))  # True
 
-n = 2
-arr_1 = [2, 1]
-output_1 = [2, 2]
-arr_2 = [1, 2]
-output_2 = [1, 1]
+# n = 2
+# arr_1 = [2, 1]
+# output_1 = [2, 2]
+# arr_2 = [1, 2]
+# output_2 = [1, 1]
 
-def findSignatureCounts_1(arr):
-  n = len(arr)
-  output = [0] * n
+# def findSignatureCounts_1(arr):
+#   n = len(arr)
+#   output = [0] * n
 
-  for i in range(n):
-    signatures = 0
-    index = i
-    for _ in range(n):
-      signatures += 1
-      print(i, _)
-      index = arr[index] - 1
-      print('   >', index, arr[index])
-      if (index == i):
-        break
+#   for i in range(n):
+#     signatures = 0
+#     index = i
+#     for _ in range(n):
+#       signatures += 1
+#       print(i, _)
+#       index = arr[index] - 1
+#       print('   >', index, arr[index])
+#       if (index == i):
+#         break
 
-    output[i] = signatures
-  return output
+#     output[i] = signatures
+#   return output
 
-print(arr_1, findSignatureCounts_1(arr_1) == output_1)
-print(arr_2, findSignatureCounts_1(arr_2) == output_2)
+# print(arr_1, findSignatureCounts_1(arr_1) == output_1)
+# print(arr_2, findSignatureCounts_1(arr_2) == output_2)
 
 
     # n = len(arr)
@@ -130,3 +130,19 @@ print(arr_2, findSignatureCounts_1(arr_2) == output_2)
     #             j = arr[j] - 1
     #         signatures[j] = count
     # return signatures
+    
+    
+def is_palindrome(s):
+    return s == s[::-1]
+
+def validPalindromeBruteForce(s):
+    for i in range(len(s)):
+        print('s[:i]: ', s[:i])
+        print('s[i + 1:]: ', s[i + 1:])
+        t = s[:i] + s[i + 1:]
+        if is_palindrome(t):
+            return True
+    return is_palindrome(s)  
+  
+v = 'acbca'
+print(v, validPalindromeBruteForce(v))
