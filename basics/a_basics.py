@@ -56,4 +56,5 @@ helloWorld()
 
 fruits = 'Apple'
 
+print('\nReversing fruit value using slicing')
 print(fruits[::-1])
