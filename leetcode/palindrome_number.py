@@ -1,8 +1,8 @@
-#this import is nothing relate to polindrome
+
 from tabulate import tabulate
 class Solution:
     #log10(n)
-    def frute_force(self, x: int) -> bool:
+    def brute_force(self, x: int) -> bool:
       number_str = str(number)
       reversed_str = number_str[::-1]
       return number_str == reversed_str
