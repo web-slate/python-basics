@@ -49,6 +49,8 @@ print("\n>>> Dict Type")
 employeeDictionary = {"name" : "John", "age" : 36} # Dict
 print(f">>> Type of employeeDictionary is {type(employeeDictionary)}")
 print('employee dictionary: ', employeeDictionary);
+config = {True : "dummyValue", 1 : "actualConfigValue"} # Dict key will same True but value will be overriden.
+print('config dictionary: ', config);
 
 print("\n>>> Boolean Type")
 eligibleToVote = True # Boolean
