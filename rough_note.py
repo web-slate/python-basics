@@ -132,17 +132,49 @@
     # return signatures
     
     
-def is_palindrome(s):
-    return s == s[::-1]
+# def is_palindrome(s):
+#     return s == s[::-1]
 
-def validPalindromeBruteForce(s):
-    for i in range(len(s)):
-        print('s[:i]: ', s[:i])
-        print('s[i + 1:]: ', s[i + 1:])
-        t = s[:i] + s[i + 1:]
-        if is_palindrome(t):
-            return True
-    return is_palindrome(s)  
+# def validPalindromeBruteForce(s):
+#     for i in range(len(s)):
+#         print('s[:i]: ', s[:i])
+#         print('s[i + 1:]: ', s[i + 1:])
+#         t = s[:i] + s[i + 1:]
+#         if is_palindrome(t):
+#             return True
+#     return is_palindrome(s)  
   
-v = 'acbca'
-print(v, validPalindromeBruteForce(v))
+# v = 'acbca'
+# def iterateString(s):
+#   half = (len(s)-1)//2;
+#   for i in range(0, half):
+#     print(s[i], s[i+1], s[i+2])
+
+# print(v, validPalindromeBruteForce(v))
+# iterateString(v)
+# print(v, iterateString(v))
+
+# zeros_count = 0
+# while(zeros_count < 4):
+#   print(zeros_count)
+#   zeros_count += 1
+# print('==========================================')
+
+# moved_one = [0,1,0,3,12]
+# non_zeros = [1, 3, 12]
+# for i in range(len(non_zeros),len(moved_one)):
+#   print(i)
+
+# print('==========================================')
+# j = 3
+# while(j < 5):
+#   print(j)
+#   j += 1
+# print('==========================================')
+# for i in range(j,5):
+#   print(i)
+
+k = 3
+while(k >= 0):
+  print(k)
+  k -= 1
