@@ -1,4 +1,32 @@
+import sys
+
+from data_types.commonUtils import timeComplexity
 print('\n >>>> String Type Example')
+
+def format_size(size_bytes):
+    # Define the conversion constants
+    KB_FACTOR = 1024
+    MB_FACTOR = KB_FACTOR ** 2
+    GB_FACTOR = KB_FACTOR ** 3
+    TB_FACTOR = KB_FACTOR ** 4
+
+    # Perform the conversions and format the output
+    if size_bytes >= TB_FACTOR:
+        return f"{size_bytes / TB_FACTOR:.2f} TB"
+    elif size_bytes >= GB_FACTOR:
+        return f"{size_bytes / GB_FACTOR:.2f} GB"
+    elif size_bytes >= MB_FACTOR:
+        return f"{size_bytes / MB_FACTOR:.2f} MB"
+    elif size_bytes >= KB_FACTOR:
+        return f"{size_bytes / KB_FACTOR:.2f} KB"
+    else:
+        return f"{size_bytes} bytes"
+
+print('\n >>>> What is maximum value can be stored inside python string variable?')
+print('Below is the Max size')
+max_size = sys.maxsize
+formatted_size = format_size(max_size)
+print(f"Max size: {formatted_size}")
 
 print('\n >>>> Single line using single quote')
 print('Single quote is same as double quote for string data type')
@@ -25,7 +53,7 @@ print('>>>> Accessing one specific character in string variable')
 print(' >>>> Find the 3rd character from 0th index')
 print(greet[3]); # return `c`
 
-print('\n >>>> number after colon executed with `-1`');
+print('\n >>>> number after colon executed with `-1` which will considered as start:stop');
 print('\n >>>> Accessing 3rd to 5th specific character in the string variable')
 print(' >>>> Find the characters from 0th index to 5th index')
 print(greet[3:6]); # return `com`
@@ -57,7 +85,8 @@ print('greet length', len(greet))
 
 print('\n >>>> `in / not in` Exist Check Example')
 print(' >>>> Find whether `w` string exist in greet variable using `in` keyword')
-print('w' in greet)
+timeComplexity('O(n)', 'In Python, strings are typically implemented as arrays of characters. The operation \'w\' in greet is essentially a search operation where Python checks each character in the string greet to see if it matches \'w\'')
+print('w' in greet) 
 
 print('\n >>> Use `in` statement in `if` statement as well')
 if 'w' in greet:
