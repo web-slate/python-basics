@@ -30,6 +30,15 @@ def print_and_assert_new(function_name, *params, expected):
     except AssertionError:
         flag_failure()
         print(f'❌ AssertionError: {function_name.__name__}{params} is returning {function_name(*params)} but `{expected}` is expected')
+
+def print_and_assert_reference(function_name, *params, expected, param_index = 0):
+    try:
+        function_name(*params)
+        assert params[param_index] == expected
+        print(f'✅ Pass: {function_name.__name__}{params} is returning {expected} as expected')
+    except AssertionError:
+        flag_failure()
+        print(f'❌ AssertionError: {function_name.__name__}{params} is returning {params[param_index]} but `{expected}` is expected')
      
 def getTestResult(testName):
     if (failure_count() > 0):
