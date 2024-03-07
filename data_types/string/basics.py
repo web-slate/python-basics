@@ -9,7 +9,7 @@ mid_index = (len(language) // 2) - 1 # decrement by 1 since length is 6 and inde
 utils.print_ordered_list([
   f'Finding Length using len(str): "{language}" is , {len(language)}',
   f'Middle character index of "{language}" is {mid_index} and char is {language[mid_index]} Using ',
-  f'6 different ways of String concatenations (+, %, join, format, fstring, += Operator)'
+  f'6 different ways of String concatenations (+, %, join, format, fstring, += Operator)',
   f'6 different ways of String Substring (slicing, find, index, regEx, strip, partition)'
 ])
 
@@ -53,15 +53,16 @@ substring_methods = [
 utils.print_tabular_list(substring_methods)
 
 
-utils.print_h6('We have greet variable hold "Hello" and name hold "Venkat.R"')
 word = 'An Apple'
+utils.print_h6('We have word variable hold "An Apple"')
 utils.print_span('Using Slicing: [start:stop:step]', word[3:])
 utils.print_span('Using Split Function returns list:', word.split(' ')[1])
-utils.print_span('Using find() return index, -1 when not found:', word[word.find(' A'):])
+utils.print_span('Using find() return index, -1 when not found:', word[word.find('A'):])
 utils.print_span('Using index() return index, ValueError when not found:', word[word.index(' A'):])
 import re
 utils.print_span('Using Regular Expression():', re.search('Ap.*e', word).group())
-
+utils.print_span('Using strip():', word.strip('An '))
+utils.print_span('Using partition Function returns list:', word.partition(' ')[1])
 
 def char_and_ascii(s):
     return [(char, ord(char)) for char in s]
