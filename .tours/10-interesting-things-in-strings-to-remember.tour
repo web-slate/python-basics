@@ -1,0 +1,22 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "10 Interesting Things in Strings to Remember",
+  "steps": [
+    {
+      "file": "data_types/string/basics.py",
+      "description": "10 Interesting Things in String to Remember",
+      "line": 9
+    },
+    {
+      "file": "data_types/string/basics.py",
+      "description": "There is Six ways of string concatenation in Python. Below is the Table with approach, Code and its Time and Space Complexity",
+      "line": 19
+    },
+    {
+      "file": "data_types/string/basics.py",
+      "description": "Below are the String Concatenation examples in Python where we have two variables, greet and name to gree the person like below.\nPattern: Hello <Name>\nExample: Hello Venkat.R",
+      "line": 31
+    }
+  ],
+  "ref": "main"
+}
