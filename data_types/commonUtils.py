@@ -29,17 +29,20 @@ def print_h3(text):
     print(f"\n{text}\n{'-' * 30}")
 
 
-def print_h4(text):
-    print(f"\n{text}\n{'-' * 25}")
-
+def print_h4(*text):
+    combined_text = " ".join(str(t) for t in text)  # Join all elements of text into one string
+    print(f"\n{combined_text}\n{'-' * 25}")
 
 def print_h5(text):
     print(f"\n{text}\n{'-' * 20}")
 
-
 def print_h6(text):
     print(f"\n{text}\n{'-' * 15}")
 
+def print_span(*text):
+    combined_text = " ".join(str(t) for t in text)  # Join all elements of text into one string
+    # Using ANSI escape code for bold text
+    print(f"> \033[1m{combined_text}\033[0m")
 
 def print_ordered_list(items):
     for i, item in enumerate(items, start=1):
@@ -61,21 +64,16 @@ def print_blockquote(items, indent_char='> ', emoji='💬', new_line = False):
 def pretty_json(input):
     pprint.pprint(input, width=50, indent=2)
 
+def print_tabular_list(data, col_widths=None):
+    # Calculate column widths based on the data if not provided
+    if col_widths is None:
+        col_widths = [max(len(str(item)) for item in column) for column in zip(*data)]
 
-def print_tabular_list(data, col_widths = [15, 45]):
-    """
-    Print data in a tabular format with horizontal lines, differentiating the header.
-
-    :param data: List of tuples, where each tuple represents a row.
-    :param col_widths: List of integers representing the width of each column.
-    """
     def print_divider():
-        # Create and print a divider line with '+'
         line = "+" + "+".join("-" * width for width in col_widths) + "+"
         print(line)
 
     def print_header_divider():
-        # Create and print a simple divider line without '+' for the header
         line = "-" * (sum(col_widths) + len(col_widths) - 1)
         print(line)
 
