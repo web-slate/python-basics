@@ -11,6 +11,8 @@ utils.print_ordered_list([
   f'Middle character index of "{language}" is {mid_index} and char is {language[mid_index]} Using ',
   f'6 different ways of String concatenations (+, %, join, format, fstring, += Operator)',
   f'6 different ways of String Substring (slicing, find, index, regEx, strip, partition)'
+  f'7 different ways of Contains String check (in, find, index, count, regEx, startswith, endswith)'
+  f'In Python, strings are immutable in nature'
 ])
 
 greet = 'Hello'
@@ -39,8 +41,7 @@ utils.print_span('Using f-String (Python 3.6+): ', f'{greet} {name}')
 greet += name
 utils.print_span('Using String Concatenation with +=: ', greet, '\n')
 
-
-substring_methods = [
+six_ways_of_substring_methods = [
     (" Approach", " Example Code", " Time Complexity", " Space Complexity"),
     (" Slicing", " 'Python'[1:4]", " O(k)", " O(k)"),
     (" str.split() & Indexing", " 'a,'.split(',')[1]", " O(n)", " O(n)"),
@@ -50,19 +51,48 @@ substring_methods = [
     (" str.partition() & Indexing", " 'P'.partition('-')[0]", " O(n)", " O(n)")
 ]
 
-utils.print_tabular_list(substring_methods)
-
+utils.print_tabular_list(six_ways_of_substring_methods)
 
 word = 'An Apple'
 utils.print_h6('We have word variable hold "An Apple"')
-utils.print_span('Using Slicing: [start:stop:step]', word[3:])
-utils.print_span('Using Split Function returns list:', word.split(' ')[1])
+utils.print_span('Using Slice Notation: [start:stop:step]', word[3:])
+slice_objet = slice(3, None)
+utils.print_span('Using Slice Object (diff is flexibility assing as variable, argument, dynamic slicing):', word[slice_objet])
+utils.print_span('Using split() split multiple occurrence, returns list: ', word.split(' ')[1])
+utils.print_span('Using partition() split first occurrence, returns tuple: ', word.partition(' ')[1])
 utils.print_span('Using find() return index, -1 when not found:', word[word.find('A'):])
 utils.print_span('Using index() return index, ValueError when not found:', word[word.index(' A'):])
 import re
 utils.print_span('Using Regular Expression():', re.search('Ap.*e', word).group())
-utils.print_span('Using strip():', word.strip('An '))
-utils.print_span('Using partition Function returns list:', word.partition(' ')[1])
+utils.print_span('Using strip():', word.strip('An'))
+
+seven_ways_of_contain_check = [
+    (" Approach", " Example Code", " Time Complexity", " Space Complexity"),
+    (" in Operator", " 'apple' in 'apple pie'", " O(n)", " O(1)"),
+    (" str.find() Method", " 'apple pie'.find('apple') != -1", " O(n)", " O(1)"),
+    (" str.index() Method", " try: 'apple'.index('pl') except ValueError: pass", " O(n)", " O(1)"),
+    (" str.count() Method", " 'apple'.count('pl') > 0", " O(n)", " O(1)"),
+    (" Regular Expression (re module)", " import re; bool(re.search('pl', 'apple'))", " O(n)", " O(1)"),
+    (" str.startswith() Method", " 'apple pie'.startswith('apple')", " O(k)", " O(1)"),
+    (" str.endswith() Method", " 'apple pie'.endswith('pie')", " O(k)", " O(1)")
+]
+
+utils.print_tabular_list(seven_ways_of_contain_check)
+
+utils.print_span('Most Efficient Method is `in`: apple pie contain apple?', 'apple' in 'apple pie')
+
+seven_ways_of_string_comparison_methods = [
+    (" Approach", " Example Code", " Time Complexity", " Space Complexity"),
+    (" Equality Operator ==", " str1 == str2", " O(n)", " O(1)"),
+    (" str.casefold() for Case-Insensitive Comparison", " str1.casefold() == str2.casefold()", " O(n)", " O(n)"),
+    (" str.lower() or str.upper() for Case-Insensitive Comparison", " str1.lower() == str2.lower()", " O(n)", " O(n)"),
+    (" locale.strcoll() for Locale-Aware Comparison", " import locale; locale.strcoll(str1, str2)", " Locale-Specific", " Locale-Specific"),
+    (" Comparing with str.startswith() or str.endswith()", " str1.startswith(str2) or str1.endswith(str2)", " O(k)", " O(1)"),
+    (" Lexicographical Comparison using > or <", " str1 > str2 or str1 < str2", " O(n)", " O(1)"),
+    (" Identity Operator Not for value is", " str1 is str2", " O(1)", " O(1)")
+]
+
+utils.print_tabular_list(seven_ways_of_string_comparison_methods)
 
 def char_and_ascii(s):
     return [(char, ord(char)) for char in s]
@@ -70,3 +100,54 @@ def char_and_ascii(s):
 # Example usage
 result = char_and_ascii("An Apple")
 print(result)
+
+str1 = "apple"
+str2 = "apple pie"
+
+utils.print_h6('Compare the strings lexicographically str1, str2 ', str1, str2)
+if str1 < str2:
+    utils.print_span(f"{str1} comes before {str2} lexicographically")
+elif str1 > str2:
+    utils.print_span(f"{str1} comes after {str2} lexicographically")
+else:
+    utils.print_span("The strings are equal")   
+    
+char_conversion_functions = [
+    (" Function", " Description", " Example Input", " Example Output"),
+    (" `ord()`", " Converts a character to its Unicode code point.", " `ord('A')`", " 65"),
+    (" `chr()`", " Converts a Unicode code point to its character.", " `chr(65)`", " 'A'"),
+    (" `hex()`", " Converts an integer to a lowercase hexadecimal string.", " `hex(255)`", " '0xff'"),
+    (" `bin()`", " Converts an integer to a binary string.", " `bin(7)`", " '0b111'"),
+    (" `int()`", " Converts a string or number to an integer (base 10 by default, can specify base).", " `int('0xff', 16)`", " 255"),
+    (" `format()`", " Formats a number into a string, can specify format (like hexadecimal).", " `format(255, 'x')`", " 'ff'")
+]
+
+utils.print_tabular_list(char_conversion_functions)
+
+utils.print_h6('Palindrome Check using StringIO')
+
+import io
+
+def is_palindrome(s):
+    # Create a StringIO object to manipulate the string
+    buffer = io.StringIO()
+
+    # Remove spaces and convert to lowercase
+    s = s.replace(" ", "").lower()
+
+    # Write the string in reverse to the buffer
+    for char in reversed(s):
+        buffer.write(char)
+
+    # Get the reversed string from the buffer
+    reversed_s = buffer.getvalue()
+
+    # Close the buffer
+    buffer.close()
+
+    # Check if the original string and the reversed string are the same
+    return s == reversed_s
+
+# Example usage
+utils.print_span("'A man a plan a canal Panama' is", is_palindrome("A man a plan a canal Panama"))  # True
+utils.print_span("'Hello is'", is_palindrome("Hello"))                      # False
