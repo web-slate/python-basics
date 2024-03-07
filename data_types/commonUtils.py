@@ -36,8 +36,9 @@ def print_h4(*text):
 def print_h5(text):
     print(f"\n{text}\n{'-' * 20}")
 
-def print_h6(text):
-    print(f"\n{text}\n{'-' * 15}")
+def print_h6(*text):
+    combined_text = " ".join(str(t) for t in text)  # Join all elements of text into one string
+    print(f"\n{combined_text}\n{'-' * 15}")
 
 def print_span(*text):
     combined_text = " ".join(str(t) for t in text)  # Join all elements of text into one string
