@@ -174,7 +174,49 @@
 # for i in range(j,5):
 #   print(i)
 
-k = 3
-while(k >= 0):
-  print(k)
-  k -= 1
+# k = 3
+# while(k >= 0):
+#   print(k)
+#   k -= 1
+
+# print('''
+# # Given a string representing an arithmetic expression with only addition and
+# # multiplication operators, return the result of the calculation.
+
+# # Examples:
+# # eval("2*3+4") -> 10
+# # eval("1+2*3*4+5") -> 30  
+# ''')
+
+# def eval_expression_optimal(expr):
+#     num = 0
+#     current_mult = 1
+#     total_sum = 0
+    
+#     for char in expr:
+#         if char.isdigit():
+#             num = num * 10 + int(char)
+#         elif char == '+':
+#             total_sum += current_mult * num
+#             num = 0
+#             current_mult = 1
+#         elif char == '*':
+#             if num:
+#                 current_mult *= num
+#                 num = 0
+    
+#     return total_sum + current_mult * num
+
+# s1 = '2*3+4'
+# s2 = '1+2*3*4+5'
+# s3 = '1000+2*32*412+5'
+# print(s1, '=', eval_expression_optimal(s1))
+# print(s2, '=', eval_expression_optimal(s2))
+# print(s3, '=', eval_expression_optimal(s3))
+
+
+import math
+
+
+name = "   praveen    "
+print('#' + name.lstrip().replace('p', 'Mr. P') + '#')
