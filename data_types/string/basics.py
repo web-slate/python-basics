@@ -151,3 +151,33 @@ def is_palindrome(s):
 # Example usage
 utils.print_span("'A man a plan a canal Panama' is", is_palindrome("A man a plan a canal Panama"))  # True
 utils.print_span("'Hello is'", is_palindrome("Hello"))                      # False
+
+
+print('''
++----------------------+------------------------+
+|       Category       |      Decimal Range     |
++----------------------+------------------------+
+|      Basic Latin     |        0 to 127        |
+|         Latin-1      |       128 to 255       |
+|    Latin-Extended    |       256 to 383       |
+|         Greek        |       913 to 969       |
+|       Cyrillic       |      1024 to 1279      |
+|        Symbols       |      8192 to 11263     |
+|   Numbers & Digits   |        48 to 57        |
+|       Exponents      |      8304 to 8343      |
+|        Complex       |    119808 to 120831    |
+|      Upper Case      |        65 to 90        |
+|      Lower Case      |        97 to 122       |
++----------------------+------------------------+
+
+''')
+
+
+def get_unicode_characters(string):
+    unicode_characters = []
+    for char in string:
+        unicode_characters.append(ord(char))
+    return unicode_characters
+  
+char = 'A'
+print(char, get_unicode_characters(char))
