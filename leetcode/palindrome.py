@@ -3,11 +3,11 @@ print("frute force solution")
 print("""===================""")
 
 def is_valid_polindrome(s: str) -> bool:
-  string = remove_alpha_numeric(s)
+  string = keep_alphanumeric(s)
   return  string == string[::-1]
 
 
-def remove_alpha_numeric(s: str) -> str :
+def keep_alphanumeric(s: str) -> str :
   string = ''.join(char.lower() for char in s if char.isalnum())
   return string
 
