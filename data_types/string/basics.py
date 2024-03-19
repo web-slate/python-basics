@@ -82,13 +82,13 @@ utils.print_tabular_list(seven_ways_of_contain_check)
 utils.print_span('Most Efficient Method is `in`: apple pie contain apple?', 'apple' in 'apple pie')
 
 seven_ways_of_string_comparison_methods = [
-    (" Approach", " Example Code", " Time Complexity", " Space Complexity"),
+    (" Approach", " Example Code", " O(Time) ", " O(Space)"),
     (" Equality Operator ==", " str1 == str2", " O(n)", " O(1)"),
-    (" str.casefold() for Case-Insensitive Comparison", " str1.casefold() == str2.casefold()", " O(n)", " O(n)"),
-    (" str.lower() or str.upper() for Case-Insensitive Comparison", " str1.lower() == str2.lower()", " O(n)", " O(n)"),
-    (" locale.strcoll() for Locale-Aware Comparison", " import locale; locale.strcoll(str1, str2)", " Locale-Specific", " Locale-Specific"),
-    (" Comparing with str.startswith() or str.endswith()", " str1.startswith(str2) or str1.endswith(str2)", " O(k)", " O(1)"),
-    (" Lexicographical Comparison using > or <", " str1 > str2 or str1 < str2", " O(n)", " O(1)"),
+    (" str.casefold()", " str1.casefold() == str2.casefold()", " O(n)", " O(n)"),
+    (" str.lower() or str.upper()", " str1.lower() == str2.lower()", " O(n)", " O(n)"),
+    (" locale.strcoll() for Locale Compare", " import locale; locale.strcoll(str1, str2)", " Locale-Specific", " Locale-Specific"),
+    (" str.startswith() or str.endswith()", " str1.startswith(str2) or str1.endswith(str2)", " O(k)", " O(1)"),
+    (" Lexicographical Compare using > or <", " str1 > str2 or str1 < str2", " O(n)", " O(1)"),
     (" Identity Operator Not for value is", " str1 is str2", " O(1)", " O(1)")
 ]
 
@@ -114,9 +114,9 @@ else:
     
 char_conversion_functions = [
     (" Function", " Description", " Example Input", " Example Output"),
-    (" `ord()`", " Converts a character to its Unicode code point.", " `ord('A')`", " 65"),
-    (" `chr()`", " Converts a Unicode code point to its character.", " `chr(65)`", " 'A'"),
-    (" `hex()`", " Converts an integer to a lowercase hexadecimal string.", " `hex(255)`", " '0xff'"),
+    (" `ord()`", " Converts a character to its Unicode code point.", " `ord('A')`", f' {ord("A")}  '),
+    (" `chr()`", " Converts a Unicode code point to its character.", " `chr(65)`", f' {chr(65)} '),
+    (" `hex()`", " Converts an integer to a lowercase hexadecimal string.", " `hex(255)`", f' {hex(255)}  '),
     (" `bin()`", " Converts an integer to a binary string.", " `bin(7)`", " '0b111'"),
     (" `int()`", " Converts a string or number to an integer (base 10 by default, can specify base).", " `int('0xff', 16)`", " 255"),
     (" `format()`", " Formats a number into a string, can specify format (like hexadecimal).", " `format(255, 'x')`", " 'ff'")
@@ -179,5 +179,5 @@ def get_unicode_characters(string):
         unicode_characters.append(ord(char))
     return unicode_characters
   
-char = 'A'
-print(char, get_unicode_characters(char))
+char = 'Venkatraman'
+print(f"get_unicode_characters('{char}')", get_unicode_characters(char))
