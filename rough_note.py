@@ -215,8 +215,22 @@
 # print(s3, '=', eval_expression_optimal(s3))
 
 
-import math
+# import math
 
 
-name = "   praveen    "
-print('#' + name.lstrip().replace('p', 'Mr. P') + '#')
+# name = "   praveen    "
+# print('#' + name.lstrip().replace('p', 'Mr. P') + '#')
+
+# 1 - 7
+i = 11
+# while(i <= 17):
+#   print(i)
+#   i+=1
+
+# for i in range(90,80,-1):
+#   print(i)
+  
+i = 90
+while(i >= 81):
+  print(i)
+  i-=1
