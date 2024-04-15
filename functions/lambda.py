@@ -19,6 +19,18 @@ A lambda function can't contain any statements.
 Statements like return, pass, assert, or
 raise will raise a Syntax Error exception
 """
+
+# SyntaxError: Lambda expression parameters cannot be parenthesized
+# greet = lambda (name, greeting) : f'Hi Mr. {name}, Good {greeting}!'
+
+# greet = lambda name, greeting : f'Hi Mr. {name}, Good {greeting}!'
+# greet = (lambda name: str, greeting: str)(f'Hi Mr. {name}, Good {greeting}!')
+# print(greet('Venkat', 'Morning'))
+
+# Throws type_annotation = (lambda x: int, y: int ,z: int : x + y + z)(2, 5, 7)
+#                            ^
+# SyntaxError: invalid syntax
+
 print(text)
 print("""  """ )
 print("anonymous function")
@@ -37,12 +49,13 @@ print("Type annotation is not supported")
 print("--------------------------------")
 # type_annotation = (lambda x: int, y: int ,z: int : x + y + z)(2, 5, 7)
 # print("Type annotation is not supported", type_annotation)
-
 print("""  """ )
 print("Square number without lambda")
 print("--------------------------------")
-def square(a ):
+def square(a):
   return a**2
+
+print(' square(7): ',  square(7))
 
 numbers = [1, 2, 3, 4, 5,]
 squared = list(map(square, numbers))
@@ -59,19 +72,22 @@ print("Squared numbers", squared)
 print("""  """ )
 print("Exception traceback with lamda")
 print("--------------------------------")
-div_by_zero = (lambda x: x / 0)(10)
-print("Lambda: Divide by Zero", div_by_zero)
+# div_by_zero = (lambda x: x / 0)(10)
+# print("Lambda: Divide by Zero", div_by_zero)
+# Throws ZeroDivisionError: division by zero
 
 print("""  """ )
 print("Exception traceback with function")
 print("--------------------------------")
 def div_by_zero_func(x):
   return  x / 0
-print("Function: Divide by Zero", div_by_zero_func(10))
+# print("Function: Divide by Zero", div_by_zero_func(10))
+# Throws ZeroDivisionError: division by zero
 
 print("""  """ )
 print("A lambda function can't contain any statements")
 print("--------------------------------")
+
 test = lambda x:  x + 10 
 print("Test ", test(2))
 
