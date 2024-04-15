@@ -230,7 +230,30 @@ i = 11
 # for i in range(90,80,-1):
 #   print(i)
   
-i = 90
-while(i >= 81):
-  print(i)
-  i-=1
+# i = 90
+# while(i >= 81):
+#   print(i)
+#   i-=1
+
+
+# def reverse_string(string):
+#   length = len(string) # O(n)
+#   i = length - 1; # O(1)
+#   reversed_string = '' # O(1)
+#   while(i>=0): # O(n)
+#     reversed_string += string[i]
+#     i -= 1
+#   return reversed_string
+
+# print(reverse_string('Hello'))
+
+# add = lambda a,b: a + b
+
+# print(add(2,5))
+
+maximum = lambda marks: max(marks)
+
+marks = [80, 70, 90, 100]
+
+
+print(maximum(marks))
