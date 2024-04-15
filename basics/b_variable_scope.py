@@ -4,7 +4,7 @@ print('\n >>>> Variable Scope Example')
 # helloWorld Function with outside variable
 print('\n >>>> helloWorld Function with outside variable')
 
-type = 'World';
+type = 'World'
 def helloWorld():
     print('Hello ' + type + ' from helloWorld()')
 
@@ -17,7 +17,7 @@ print('\n >>>> helloWorld Function with hoisting variable throws `NameError`')
 #     print('Hello ' + hoistedVariable + ' from helloWorld()')
 
 # helloWorld()
-# hoistedVariable = 'hoisted world';
+# hoistedVariable = 'hoisted world'
 
 # Greet Function
 print('\n >>>> Greet Function passed with `name` variable')
@@ -28,7 +28,7 @@ def greet(name):
 # print(" >>>> when no parameter passed throws TypeError: greet() missing 1 required positional argument: 'name'")
 
 print(" >>>> passing name parameter returns Hello John")
-name = 'John';
+name = 'John'
 greet(name)
 
 # Global Variable
@@ -38,11 +38,12 @@ myAge = 21
 def afterGraduation():
     myAge = 24
     # myAge will be overwritten as 24.
-    print(f"inside afterGraduation: I'm {myAge} yeard old") 
+    print(f"inside afterGraduation: I'm {myAge} years old") 
     
 # myAge will return global value 21.
 print(f"outside before afterGraduation call: I'm {myAge} year old") 
 afterGraduation()
+print(f"outside after afterGraduation call: I'm {myAge} year old") 
 
 # Global Variable with global keyword.
 print('\n >>>> Global Variable with global keyword')
@@ -56,5 +57,6 @@ def afterMarriage():
     print(f"inside afterMarriage after change: I'm {manhood}") 
     
 # manhood will return global value Husband.
+print(f"outside before afterMarriage: I'm {manhood}")
 afterMarriage()
-print(f"outside afterMarriage: I'm {manhood}")
+print(f"outside after afterMarriage: I'm {manhood}")
