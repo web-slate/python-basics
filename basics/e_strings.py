@@ -1,3 +1,4 @@
+# python module.py basics/e_strings.py
 import sys
 
 from data_types.commonUtils import timeComplexity
@@ -35,16 +36,16 @@ print('\n >>>> Single line using double quote')
 print("Single quote is same as double quote for string data type");
 
 print('\n >>>> Multi line using single quote')
-print("""
-      Multi line statement can be
-      created using 3 double quotes.
-""");
-
-print('\n >>>> Multi line using double quote')
 print('''
       Multi line statement can be
+      created using 3 single quotes.
+''');
+
+print('\n >>>> Multi line using double quote')
+print("""
+      Multi line statement can be
       created using 3 double quotes.      
-''')
+""")
 
 greet = 'welcome';
 
