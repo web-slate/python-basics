@@ -49,13 +49,18 @@ print("\n>>> Dict Type")
 employeeDictionary = {"name" : "John", "age" : 36} # Dict
 print(f">>> Type of employeeDictionary is {type(employeeDictionary)}")
 print('employee dictionary: ', employeeDictionary)
-config = {True : "dummyValue", 1 : "actualConfigValue"} # Dict key will same True but value will be overriden.
+config = {True : "dummyValue", 1 : "actualConfigValue"} # Dict key value will be same True or 1 so latest value will be overriden.
 print('config dictionary: ', config)
 
 print("\n>>> Boolean Type")
 eligibleToVote = True # Boolean
 print(f">>> Type of eligibleToVote is {type(eligibleToVote)}")
 print('eligibleToVote: ', eligibleToVote)
+
+sunRiseToday = 'east'
+sunRiseTodayInWest = True if sunRiseToday == 'west' else False
+print(f"\n>>> Type of sunRiseTodayInWest is {sunRiseTodayInWest}")
+print('sunRiseTodayInWest: ', sunRiseTodayInWest)
 
 # TODO
 # Add Bytes
