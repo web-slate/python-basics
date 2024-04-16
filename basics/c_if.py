@@ -5,12 +5,15 @@ print('\n >>>> Statement Example')
 print('\n >>>> isEligibleToVote Function with passing age')
 
 def isEligibleToVote(age: int = 0) -> None:
-    if(age < 21):
-        print(str(age) + ' Wow, You will be soon eligible to vote')
-    elif(age > 21):
-        print(str(age) + ' Congrats, You are eligible to vote!')
-    else:
-        print(str(age) + ' Invalid `age` parameter')
+    try:
+      if(age > 0 and age < 21):
+          print(str(age) + ' Wow, You will be soon eligible to vote')
+      elif(age > 21):
+          print(str(age) + ' Congrats, You are eligible to vote!')
+      else:
+          print(str(age) + ' Invalid `age` parameter')
+    except Exception as e:
+      print('Got error for param "' + age + '"\nError is ', e)
 
 # Example usage
 print('\n >>>> Passing nothing consider default parameter if provided')
