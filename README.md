@@ -27,3 +27,26 @@ Python Basics
 
 
 ![python-one-pic](https://github.com/web-slate/python-basics/assets/1652629/b7c0e938-1eab-4259-a098-3cc9cf8d17f2)
+
+
+## Setup
+
+### Setup Virtual Environment
+
+```
+python -m venv venv
+```
+
+### Activate Virtual Environment
+
+| Operating System | Command to Activate Virtual Environment |
+|------------------|----------------------------------------|
+| Windows          | `venv\Scripts\activate`                |
+| Mac/Linux        | `source venv/bin/activate`             |
+
+
+### Install StylePy Module for styling command line output.
+
+```
+pip install stylepy
+```
