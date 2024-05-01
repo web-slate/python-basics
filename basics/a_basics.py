@@ -1,5 +1,10 @@
+import sys
+print(sys.path)
+
 # Basic Statement
-print('\n # Basic Example')
+from stylepy import h1, h2, h3, h4, h5, h6
+
+h1('\n # Basic Example')
 
 # Print Statement without parenthesis.
 print('\n >>>> Print Statement without parenthesis throws SyntaxError')
