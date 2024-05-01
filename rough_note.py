@@ -251,9 +251,12 @@ i = 11
 
 # print(add(2,5))
 
-maximum = lambda marks: max(marks)
+# maximum = lambda marks: max(marks)
 
-marks = [80, 70, 90, 100]
+# marks = [80, 70, 90, 100]
 
 
-print(maximum(marks))
+# print(maximum(marks))
+
+def multiply (a,b):
+  return a*b
