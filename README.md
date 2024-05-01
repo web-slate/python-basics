@@ -48,5 +48,5 @@ python -m venv venv
 ### Install StylePy Module for styling command line output.
 
 ```
-pip install stylepy
+pip install -r requirements.txt
 ```
