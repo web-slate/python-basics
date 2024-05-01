@@ -111,10 +111,10 @@ info = 'hey i work for {1} in {0} as {2}'
 print(info.format(location, company, designation))
 
 print('\n >>>> format() with missing index numbers, means not giving all the index')
+print('>>>> Error: cannot switch from manual field specification to automatic field numbering')
 # info1 = 'hey i work for {1} in {} as {}'
 # print(info1.format(location, company, designation))
-print('''>>>> Below String code throws Error: g\n
-hey i work for {1} in {} as {}\nthrows: Value
-Error: cannot switch from manual field specification to automatic field numbering
-''')
-print('>>>> Error: cannot switch from manual field specification to automatic field numbering')
+# print('''>>>> Below String code throws Error: g\n
+# hey i work for {1} in {} as {}\nthrows: Value
+# Error: cannot switch from manual field specification to automatic field numbering
+# '''.format(location, company, designation))
