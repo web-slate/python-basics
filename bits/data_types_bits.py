@@ -1,6 +1,7 @@
-import data_types.commonUtils as utils
+from stylepy import h1, h2, h3, h4, h5, h6
+from stylepy import ordered_list, bullet_list
 
-utils.print_h1('Data Type Bit Sizes')
+h1('Data Type Bit Sizes')
 
 print('''
 | Data Type  | Typical Maximum Bits       | Notes                                           |
@@ -19,8 +20,8 @@ print('''
 | NoneType   | N/A                        | Represents no value, no associated bit size.    |
 ''')
 
-utils.print_h2('Notes')
-utils.print_ordered_list(
+h2('Notes')
+ordered_list(
     [
         'The "int" type in Python can handle very large numbers, as its size is dynamic and adjusts based on the value it\'s holding.',
         'For types like "str", "bytes", "bytearray", "list", "tuple", "set", and "dict", the bit size depends on their content and can vary widely.',

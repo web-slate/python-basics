@@ -1,8 +1,8 @@
-import data_types.commonUtils as utils
+from stylepy import h1, h2, h3, h4, h5, h6
 
-utils.print_h1('16 and 32 Bit Basics')
+h1('16 and 32 Bit Basics')
 
-utils.print_h2('16 Bits')
+h2('16 Bits')
 print('Note: 16 bits can represent numbers from 0 to 65,535 (2^16 - 1).')
 print('''
 | Decimal | Binary            |
@@ -20,7 +20,7 @@ print('''
 | 10      | 0000000000001010  |
 ''')
 
-utils.print_h2('32 Bits')
+h2('32 Bits')
 print('Note: 32 bits can represent numbers from 0 to 4,294,967,295 (2^32 - 1). Full binary representation for numbers larger than 16 bits is quite lengthy, so only the least significant 16 bits are shown for brevity.')
 print('''
 | Decimal | Binary (only showing least significant 16 bits for brevity) |

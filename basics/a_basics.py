@@ -4,26 +4,26 @@ from stylepy import h1, h2, h3, h4, h5, h6
 h1('\n # Basic Example')
 
 # Print Statement without parenthesis.
-print('\n >>>> Print Statement without parenthesis throws SyntaxError')
+h2('\n >>>> Print Statement without parenthesis throws SyntaxError')
 # SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
 # print "Concatenation with variable"
 
 # Print Statement
-print('\n >>>> Print Statement ')
+h3('\n >>>> Print Statement ')
 print('hello venkat, welcome to python')
 
 # Print Statement support comma separated arguments.
-print('\n >>>> Print Statement support n number of comma separated arguments.')
+h4('\n >>>> Print Statement support n number of comma separated arguments.')
 #  Maximum number of parameters you can pass to a function like print()
 #  It is primarily limited by the amount of memory available on your system.
 print('hello venkat,', 'welcome to ', 'python')
 
 # Concatenation
-print('\n >>>> Print Statement Simple Concatenation')
+h5('\n >>>> Print Statement Simple Concatenation')
 print('hello venkat, welcome to python' + '3')
 
 # Concatenation with int variable
-print('\n >>>> Concatenation with int variable and string throws TypeError')
+h6('\n >>>> Concatenation with int variable and string throws TypeError')
 version = 3
 # Your will get TypeError: unsupported operand type(s) for +: 'int' and 'str'
 # print(version + 'hello venkat, welcome to python')

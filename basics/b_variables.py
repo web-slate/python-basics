@@ -1,10 +1,10 @@
 from data_types.commonUtils import spaceComplexity, timeComplexity
+from stylepy import h1, h2, h3, h4, h5, h6
 
-
-print('\n >>>> Variable Example');
-print("Variable name should start with alpha-numeric characters, _ or string")
-print("Variable name should not start with numbers, hyphen")
-print("Variable names are case sensitive");
+h1('\n >>>> Variable Example');
+h2("Variable name should start with alpha-numeric characters, _ or string")
+h3("Variable name should not start with numbers, hyphen")
+h4("Variable names are case sensitive");
 
 # Below code throws `SyntaxError: invalid decimal literal`.
 # 1fruit = 'hello'
@@ -15,12 +15,12 @@ print("Variable names are case sensitive");
 # =adhi = 'graduated'
 
 # Multiple Variables
-print("\n>>>> Multiple Variables with String literal");
+h5("\n>>>> Multiple Variables with String literal");
 x, y, z = 1, 2, "Three"
 print(f"X is {x}, Y is {y}, Z is {z}")
 
 # Swapping example
-print("\n>>>> Swapping String Variables Using unpacking return with String literal");
+h6("\n>>>> Swapping String Variables Using unpacking return with String literal");
 a = 'apple'
 b = 'bat'
 b, a = a, b # Time and Space complexity is O(1), Constant Time, which is faster.

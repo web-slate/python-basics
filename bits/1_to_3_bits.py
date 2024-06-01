@@ -1,8 +1,9 @@
-import data_types.commonUtils as utils
+#import data_types.commonUtils as utils
+from stylepy import h1, h2, h3, h4, h5, h6
 
-utils.print_h1('1, 2 and 3 Bit Basics')
+h1('1, 2 and 3 Bit Basics')
 
-utils.print_h2('1 Bit')
+h2('1 Bit')
 print('''
 | Decimal | Binary |
 |---------|--------|
@@ -10,7 +11,7 @@ print('''
 | 1       | 1      |
 ''')
 
-utils.print_h2('2 Bit')
+h2('2 Bit')
 print('''
 | Decimal | Binary |
 |---------|--------|
@@ -20,7 +21,7 @@ print('''
 | 3       | 11     |
 ''')
 
-utils.print_h2('3 Bit')
+h2('3 Bit')
 print('In the 3-bit table, only decimal numbers up to 7 are included, as the binary representation of 8 (1000) requires 4 bits.')
 print('''
 | Decimal | Binary |

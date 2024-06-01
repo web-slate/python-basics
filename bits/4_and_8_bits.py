@@ -1,8 +1,9 @@
-import data_types.commonUtils as utils
+#import data_types.commonUtils as utils
+from stylepy import h1, h2, h3, h4, h5, h6
 
-utils.print_h1('4 and 5 Bit Basics')
+h1('4 and 5 Bit Basics')
 
-utils.print_h2('4 Bits')
+h2('4 Bits')
 print('Note: 4 bits can represent numbers from 0 to 15 (2^4 - 1).')
 print('''
 | Decimal | Binary |
@@ -20,7 +21,7 @@ print('''
 | 10      | 1010   |
 ''')
 
-utils.print_h2('8 Bits')
+h2('8 Bits')
 print('Note: 8 bits can represent numbers from 0 to 255 (2^8 - 1).')
 print('''
 | Decimal | Binary    |

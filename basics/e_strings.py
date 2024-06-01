@@ -1,8 +1,9 @@
 # python module.py basics/e_strings.py
 import sys
-
 from data_types.commonUtils import timeComplexity
-print('\n >>>> String Type Example')
+from stylepy import h1, h2, h3, h4, h5, h6
+
+h1('\n >>>> String Type Example')
 
 def format_size(size_bytes):
     # Define the conversion constants
@@ -23,16 +24,16 @@ def format_size(size_bytes):
     else:
         return f"{size_bytes} bytes"
 
-print('\n >>>> What is maximum value can be stored inside python string variable?')
-print('Below is the Max size')
+h2('\n >>>> What is maximum value can be stored inside python string variable?')
+h3('Below is the Max size')
 max_size = sys.maxsize
 formatted_size = format_size(max_size)
 print(f"Max size: {formatted_size}")
 
-print('\n >>>> Single line using single quote')
+h4('\n >>>> Single line using single quote')
 print('Single quote is same as double quote for string data type')
 
-print('\n >>>> Single line using double quote')
+h5('\n >>>> Single line using double quote')
 print("Single quote is same as double quote for string data type");
 
 print('\n >>>> Multi line using single quote')
@@ -41,7 +42,7 @@ print('''
       created using 3 single quotes.
 ''');
 
-print('\n >>>> Multi line using double quote')
+h6('\n >>>> Multi line using double quote')
 print("""
       Multi line statement can be
       created using 3 double quotes.      

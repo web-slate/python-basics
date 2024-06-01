@@ -1,3 +1,4 @@
+from stylepy import h1, h2, h3, h4, h5, h6
 # __init__() is a built function
 # https://chat.openai.com/share/eb3388df-6669-41ee-a16e-d471ec115799
 # It facilitates the initial creation of object properties and do the initial function calls 
