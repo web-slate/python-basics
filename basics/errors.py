@@ -1,4 +1,6 @@
-print('\nSyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers')
+from stylepy import h1, h2, h3, h4, h5, h6
+
+h1('\nSyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers')
 
 print("\nModuleNotFoundError: No module named 'utils'")
 print("soluton: \nimport sys \n sys.path.append('../')")

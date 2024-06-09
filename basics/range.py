@@ -1,4 +1,6 @@
-print('\n >>>> Range Data Type Example')
+from stylepy import h1, h2, h3, h4, h5, h6
+
+h1('\n >>>> Range Data Type Example')
 print('\n >>>> Print Until 7 `range(8)` wrap with list')
 print(list(range(8)))
 
@@ -27,7 +29,7 @@ print(type(range(2, 8)))
 # numbers = [1, 2, 3, 4, 5]
 # squared_numbers = list(map(square, numbers))
 
-print('\n >>>> Print Fibonacci Sequence until 10th Number')
+h2('\n >>>> Print Fibonacci Sequence until 10th Number')
 
 def fibonacci(n):
     a, b = 0, 1

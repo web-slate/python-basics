@@ -1,6 +1,8 @@
-print('\n >>>> Data Type Example')
-print('15 Types of Data Types')
-print('>>>> 1st. Text Type')
+from stylepy import h1, h2, h3, h4, h5, h6
+
+h1('\n >>>> Data Type Example')
+h2('15 Types of Data Types')
+h3('>>>> 1st. Text Type')
 print('1. string\n')
 print('>>>> 2nd Numeric Type')
 print('2. int, 3. float, 4. complex\n')

@@ -1,8 +1,10 @@
+from stylepy import h1, h2, h3, h4, h5, h6
+
 # Variable Scope
-print('\n >>>> Variable Scope Example')
+h1('\n >>>> Variable Scope Example')
 
 # helloWorld Function with outside variable
-print('\n >>>> helloWorld Function with outside variable')
+h2('\n >>>> helloWorld Function with outside variable')
 
 type = 'World'
 def helloWorld():
@@ -57,6 +59,6 @@ def afterMarriage():
     print(f"inside afterMarriage after change: I'm {manhood}") 
     
 # manhood will return global value Husband.
-print(f"outside before afterMarriage: I'm {manhood}")
+h3(f"outside before afterMarriage: I'm {manhood}")
 afterMarriage()
-print(f"outside after afterMarriage: I'm {manhood}")
+h4(f"outside after afterMarriage: I'm {manhood}")

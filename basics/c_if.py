@@ -1,8 +1,10 @@
+from stylepy import h1, h2, h3, h4, h5, h6
+
 # Statement
-print('\n >>>> Statement Example')
+h1('\n >>>> Statement Example')
 
 # isEligibleToVote Function
-print('\n >>>> isEligibleToVote Function with passing age')
+h2('\n >>>> isEligibleToVote Function with passing age')
 
 def isEligibleToVote(age: int = 0) -> None:
     try:
@@ -16,13 +18,13 @@ def isEligibleToVote(age: int = 0) -> None:
       print('Got error for param "' + age + '"\nError is ', e)
 
 # Example usage
-print('\n >>>> Passing nothing consider default parameter if provided')
+h3('\n >>>> Passing nothing consider default parameter if provided')
 isEligibleToVote()
-print('\n >>>> Passing `16` return "Wow, You will be soon eligible to vote"')
+h4('\n >>>> Passing `16` return "Wow, You will be soon eligible to vote"')
 isEligibleToVote(16)
-print('\n >>>> Passing `19` return "Wow, You will be soon eligible to vote"')
+h5('\n >>>> Passing `19` return "Wow, You will be soon eligible to vote"')
 isEligibleToVote(19)  
-print('\n >>>> Passing `25` return "Congrats, You are eligible to vote!"')
+h6('\n >>>> Passing `25` return "Congrats, You are eligible to vote!"')
 isEligibleToVote(25)  
 print('\n >>>> Passing `\'\'` as parameter throws TypeError: \'<\' not supported between instances of \'str\' and \'int\'')
 isEligibleToVote('')

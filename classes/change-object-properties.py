@@ -1,4 +1,5 @@
 import simple_class as sc
+from stylepy import h1, h2, h3, h4, h5, h6
 
 # Without creating an object or instance we cannot work/use the class
 # An object is a memory it has all the features and functions that defined in the class

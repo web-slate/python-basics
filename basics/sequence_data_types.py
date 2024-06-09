@@ -1,10 +1,12 @@
-print('\n >>>> Sequence Data Type Example')
+from stylepy import h1, h2, h3, h4, h5, h6
 
-print('\n >>>> List Data Type Example')
+h1('\n >>>> Sequence Data Type Example')
+
+h2('\n >>>> List Data Type Example')
 print(' >>> Create N number of List element with same value')
 print([7] * 4);
 
-print('\n >>>> Tuple Data Type Example')
+h3('\n >>>> Tuple Data Type Example')
 print((1,2) * 4);
 
-print('\n >>>> Complex Data Type Example')
+h4('\n >>>> Complex Data Type Example')
