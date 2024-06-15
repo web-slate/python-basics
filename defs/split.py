@@ -1,4 +1,5 @@
-print('\n >>>> Split String Example');
+from stylepy import h1
+h1('\n >>>> Split String Example');
 
 original = "Hello, World!"
 target = original.split(",")

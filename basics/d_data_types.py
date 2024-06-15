@@ -1,5 +1,6 @@
 from stylepy import h1, h2, h3, h4, h5, h6
-
+from stylepy import blockquote
+from stylepy import pretty_json
 h1('\n >>>> Data Type Example')
 h2('15 Types of Data Types')
 h3('>>>> 1st. Text Type')
@@ -41,6 +42,7 @@ fruits = ["apple", "banana", "cherry"] # List for fruits
 print(f">>> Type of fruits is {type(fruits)}")
 fruits.append("grapes")
 print('Fruits List: ', fruits)
+blockquote(fruits) # blockquote
 
 print("\n>>> Tuple Type")
 configuration = ('2MB','30 Minutes') # Tuple 
@@ -50,6 +52,7 @@ print('configuration Tuple: ', configuration)
 print("\n>>> Dict Type")
 employeeDictionary = {"name" : "John", "age" : 36} # Dict
 print(f">>> Type of employeeDictionary is {type(employeeDictionary)}")
+pretty_json(employeeDictionary) #pretty json
 print('employee dictionary: ', employeeDictionary)
 config = {True : "dummyValue", 1 : "actualConfigValue"} # Dict key value will be same True or 1 so latest value will be overriden.
 print('config dictionary: ', config)

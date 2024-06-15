@@ -1,3 +1,5 @@
+from stylepy import span
+from stylepy import h4
 text = """
 Array is a collection of emlements. List is a array in python.
 For advanced array we can use numpy library
@@ -79,8 +81,8 @@ shallow_copy = original_list.copy()
 # Modifying an element inside the list
 original_list[0][0] = 10
 
-print("original list", original_list)  # Output: [[10, 2, 3], [4, 5, 6], [7, 8, 9]]
-print("shallow_copy", shallow_copy)   # Output: [[10, 2, 3], [4, 5, 6], [7, 8, 9]]
+span("original list", original_list)  # Output: [[10, 2, 3], [4, 5, 6], [7, 8, 9]]
+span("shallow_copy", shallow_copy)   # Output: [[10, 2, 3], [4, 5, 6], [7, 8, 9]]
 
 text = """
 What is shallow? 
@@ -92,7 +94,7 @@ the structure. The depth of the copy is limited, and modifications
 to the inner elements are shared between the original and the shallow copy
 """
 
-print(text)
+h4(text)
 
 list1 = [10, 20 ,30 , 40 ]
 

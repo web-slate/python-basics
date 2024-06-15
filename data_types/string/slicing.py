@@ -1,4 +1,5 @@
-print('\n >>>> String Slicing Example')
+from stylepy import h1,h2,h3,h4,h5,h6
+h1('\n >>>> String Slicing Example')
 print('s[start:end] extracts the substring from index start to lesser than end index / end - 1.')
 print('s[start:end:step] extracts the substring from index start to lesser than end index / end - 1')
 
