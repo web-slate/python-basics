@@ -1,5 +1,5 @@
 from stylepy import h1,h2,h3
-print("""
+h2("""
 - collections.deque in Python is a mutable data structure, and you can add, remove, or modify elements.
 - It is a double-ended queue, optimized for fast operations at both ends.
 

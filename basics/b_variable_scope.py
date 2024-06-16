@@ -34,7 +34,7 @@ name = 'John'
 greet(name)
 
 # Global Variable
-print('\n >>>> Global and Local Variable Samples')
+h4('\n >>>> Global and Local Variable Samples')
 myAge = 21
 
 def afterGraduation():
@@ -48,7 +48,7 @@ afterGraduation()
 print(f"outside after afterGraduation call: I'm {myAge} year old") 
 
 # Global Variable with global keyword.
-print('\n >>>> Global Variable with global keyword')
+h4('\n >>>> Global Variable with global keyword')
 
 manhood = "bachelor"
 
@@ -59,6 +59,6 @@ def afterMarriage():
     print(f"inside afterMarriage after change: I'm {manhood}") 
     
 # manhood will return global value Husband.
-h3(f"outside before afterMarriage: I'm {manhood}")
+print(f"outside before afterMarriage: I'm {manhood}")
 afterMarriage()
-h4(f"outside after afterMarriage: I'm {manhood}")
+print(f"outside after afterMarriage: I'm {manhood}")

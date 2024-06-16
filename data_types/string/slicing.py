@@ -12,38 +12,38 @@ phone_number = '+1-800-555-1234'
 file_name = 'slicing.pdf'
 transaction_timestamp = '2023-01-15 09:30:00'
 
-print('\n >>>> Get last four digit of debit card', '[-4:]')
+h4('\n >>>> Get last four digit of debit card', '[-4:]')
 print(debit_card[-4:])
 
-print('\n >>>> Get short description from long string', '[:140]')
+h4('\n >>>> Get short description from long string', '[:140]')
 print(slicing_detailed_desc[:140], '...')
 
-print('\n >>>> Get Mobile Country and Area Code', '[0:6]')
+h4('\n >>>> Get Mobile Country and Area Code', '[0:6]')
 print(phone_number[0:6])
 
-print('\n >>>> Get US Mobile Number without Country Code', '[3:]')
+h4('\n >>>> Get US Mobile Number without Country Code', '[3:]')
 print(phone_number[3:])
 
-print('\n >>>> Get File extension', '[-3]')
+h4('\n >>>> Get File extension', '[-3]')
 print(file_name[-3:])
 
-print('\n >>>> Get Transaction Date', '[0:10]')
+h4('\n >>>> Get Transaction Date', '[0:10]')
 print(transaction_timestamp[:10])
 print('\n >>>> Get Transaction Date in DD-MM-YYYY', '[0:10]')
 print(f'{transaction_timestamp[8:10]}-{transaction_timestamp[5:7]}-{transaction_timestamp[:4]}')
 
-print('\n >>>> Get Transaction Year', '[0:4]')
+h4('\n >>>> Get Transaction Year', '[0:4]')
 print(transaction_timestamp[:4])
 
-print('\n >>>> Get Transaction Month', '[5:7]')
+h4('\n >>>> Get Transaction Month', '[5:7]')
 print(transaction_timestamp[5:7])
 
-print('\n >>>> Get Transaction Time with seconds', '[-8:] / [11:]')
+h4('\n >>>> Get Transaction Time with seconds', '[-8:] / [11:]')
 print(transaction_timestamp[-8:])
 print(transaction_timestamp[11:])
 
-print('\n >>>> Get Transaction hour in Time without seconds', '[-8:-3]')
+h4('\n >>>> Get Transaction hour in Time without seconds', '[-8:-3]')
 print(transaction_timestamp[-8:-3])
 
-print('\n >>>> Get Time String Revered', '[::-1]')
+h4('\n >>>> Get Time String Revered', '[::-1]')
 print(transaction_timestamp[::-1])

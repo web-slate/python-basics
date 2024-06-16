@@ -9,7 +9,7 @@ def get_length1(bus):
     return bus.length
 
 bus = sc.Bus()
-print(f"Bus length : {bus.length}")
+h1(f"Bus length : {bus.length}")
 bus.length = 10
 bus.get_length = get_length1
 print(f"Bus length : {bus.length}")

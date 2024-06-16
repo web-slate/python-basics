@@ -1,5 +1,5 @@
 from stylepy import span
-from stylepy import h4
+from stylepy import h1,h2,h3,h4,h5,h6
 text = """
 Array is a collection of emlements. List is a array in python.
 For advanced array we can use numpy library
@@ -22,7 +22,7 @@ In Python, when you assign one list to another using = (as in list3 = list1),
 you are creating a reference to the same list object, not a new copy of the list.
 
 """
-print(text)
+h2(text)
 
 list3 = list1
 print("assign list3 = list1 and print list3 ")
@@ -45,7 +45,7 @@ You can use the copy() method or the [:] slicing syntax
 to create a shallow copy of a list:
 """
 
-print(text)
+h2(text)
 
 original_list = [1, 2, 3, 4, 5]
 # Using copy() method
@@ -57,15 +57,15 @@ shallow_copy_3 = original_list
 
 # Modifying the original list
 original_list[0] = 10
-print("Original list", original_list)      # Output: [10, 2, 3, 4, 5]
-print("Shallow copy 1", shallow_copy_1)    # Output: [1, 2, 3, 4, 5]
-print("Shallow copy 2", shallow_copy_2)    # Output: [1, 2, 3, 4, 5]
-print("Shallow copy 3", shallow_copy_3)    # Output: [10, 2, 3, 4, 5]
+h4("Original list", original_list)      # Output: [10, 2, 3, 4, 5]
+h4("Shallow copy 1", shallow_copy_1)    # Output: [1, 2, 3, 4, 5]
+h4("Shallow copy 2", shallow_copy_2)    # Output: [1, 2, 3, 4, 5]
+h4("Shallow copy 3", shallow_copy_3)    # Output: [10, 2, 3, 4, 5]
 
 del shallow_copy_3[0]
-print("Original list after deleting shallow copy 3 ", original_list)
-print("shallow_copy_1 list after deleting shallow copy 3 ", shallow_copy_1)
-print("shallow_copy_2 list after deleting shallow copy 3 ", shallow_copy_2)
+h3("Original list after deleting shallow copy 3 ", original_list)
+h3("shallow_copy_1 list after deleting shallow copy 3 ", shallow_copy_1)
+h3("shallow_copy_2 list after deleting shallow copy 3 ", shallow_copy_2)
 
 print("The key concept is whether the elements inside the list are mutable or immutable.")
 text = """
@@ -74,7 +74,7 @@ modifying the original list's elements won't affect the shallow copy,
  because the values of those elements cannot be changed
 """
 
-print(text)
+h2(text)
 
 original_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 shallow_copy = original_list.copy()

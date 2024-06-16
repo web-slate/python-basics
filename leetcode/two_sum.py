@@ -1,3 +1,4 @@
+from stylepy import h1,h2,h3,h4,h5,h6
 import numbers
 
 def brute_force(lst, target):
@@ -15,12 +16,12 @@ def time_optimized(lst, target):
   for index, value in enumerate(lst):
     dicti[value] = index
   
-  print(type(dicti), dicti)
+  h3(type(dicti), dicti)
   for i in range(len(lst)):
     complement = target - lst[i] 
     if complement in dicti and dicti[complement] != i:
       return [i, dicti[complement]]
   
-print("""Brute-force solution""")
-print(f"list[2,5,7,4] and target 11 {brute_force([2,5,7,4], 11 )}")
-print(f"list[2,5,7,4] and target 11 {time_optimized([2,5,7,4], 11 )}")
+h1("""Brute-force solution""")
+h3(f"list[2,5,7,4] and target 11 {brute_force([2,5,7,4], 11 )}")
+h3(f"list[2,5,7,4] and target 11 {time_optimized([2,5,7,4], 11 )}")

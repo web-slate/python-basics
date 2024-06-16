@@ -1,7 +1,7 @@
+from stylepy import h1,h2,h3,h4,h5,h6
 print('''''')
-print("Circular Queue")
-print("------------------------------------")
-print('''A circular queue, also known as a ring buffer, is a data structure that effectively uses an array and operates
+h1("Circular Queue")
+h2('''A circular queue, also known as a ring buffer, is a data structure that effectively uses an array and operates
 like a regular queue with a fixed size.
 ''')
 class CircularQueue:

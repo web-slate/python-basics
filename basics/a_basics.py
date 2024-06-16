@@ -29,23 +29,23 @@ version = 3
 # print(version + 'hello venkat, welcome to python')
 # Your will get TypeError: can only concatenate str (not "int") to str.
 # print('hello venkat, welcome to python' + version)
-print('\n >>>> Concatenation of int variable and string Issue fix should be with str() function')
+h5('\n >>>> Concatenation of int variable and string Issue fix should be with str() function')
 # Fix is below.
 print('hello venkat, welcome to python' + str(version))
 
 # Concatenation with string variable
-print('\n >>>> Concatenation with string variable')
+h5('\n >>>> Concatenation with string variable')
 version = '3'
 print('hello venkat, welcome to python' + version)
 
 # Concatenation with string variable wrapped in String literal.
-print('\n >>>> String variable wrapped in String literal.')
+h5('\n >>>> String variable wrapped in String literal.')
 version = '3'
 print(f"hello venkat, welcome to python{version}")
 
 
 # Simple Hello World Function throws IndentationError when function body statement with zero indentation.
-print('\n >>>> Simple Hello World Function throws IndentationError when function body statement with zero indentation.')
+h5('\n >>>> Simple Hello World Function throws IndentationError when function body statement with zero indentation.')
 print(' >>>> Fix is 4 tabs after def statement')
 def helloWorld():
 # You will get IndentationError: expected an indented block after function definition on line 47

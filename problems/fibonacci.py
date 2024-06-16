@@ -1,3 +1,4 @@
+from stylepy import h1
 import time
 
 def getMinutes(elapsed_time):
@@ -9,7 +10,7 @@ def getSeconds(elapsed_time):
     return seconds
 
 # recursive_fibonacci Function
-print('\n >>>> recursive_fibonacci Function to return fibonacci until n');
+h1('\n >>>> recursive_fibonacci Function to return fibonacci until n');
 print('\n This one time complexity is O(2^n) Exponential and have redundant calculations');
 
 def recursive_fibonacci(n):
@@ -27,7 +28,7 @@ end_time = time.time() # End time
 print(f"This function took {getMinutes(end_time - start_time)} minutes and {getSeconds(end_time - start_time):.2f} seconds")
 
 # memoized_recursive_fibonacci Function
-print('\n >>>> memoized_recursive_fibonacci Function to return fibonacci until n')
+h1('\n >>>> memoized_recursive_fibonacci Function to return fibonacci until n')
 print('\n This one optimized now so Time and Space Complexity is O(n)')
 
 def memoized_recursive_fibonacci(n, memoized={0: 0, 1:1}):
@@ -44,7 +45,7 @@ print(f"This function took {getMinutes(end_time - start_time)} minutes and {getS
 # iterative_fibonacci Function
 """
 """
-print('\n >>>> iterative_fibonacci Function to return fibonacci until n')
+h1('\n >>>> iterative_fibonacci Function to return fibonacci until n')
 def iterative_fibonacci(n):
     """
     Calculate the nth Fibonacci number using an iterative approach.
