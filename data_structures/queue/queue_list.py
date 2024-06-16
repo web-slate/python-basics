@@ -1,3 +1,4 @@
+from stylepy import h1,h2,h3,h4,h5,h6
 class Queue:
     def __init__(self):
       self.items = []
@@ -33,19 +34,19 @@ class Queue:
 # Example usage:
 if __name__ == "__main__":
   grocery_queue = Queue()
-  print("Initial queue:", grocery_queue.items)
+  h4("Initial queue:", grocery_queue.items)
 
   # Adding people to the queue
   grocery_queue.enqueue("Venkat")
   grocery_queue.enqueue("Suba")
   grocery_queue.enqueue("Gutti")
-  print("Queue after adding people:", grocery_queue.items)
+  h4("Queue after adding people:", grocery_queue.items)
 
   # Serving people from the queue
   serving_person = grocery_queue.dequeue()
-  print("Serving:", serving_person)
-  print("Queue after serving:", grocery_queue.items)
+  h4("Serving:", serving_person)
+  h4("Queue after serving:", grocery_queue.items)
 
   # Checking the next person to be served
   next_person = grocery_queue.peek()
-  print("Next person to be served:", next_person)
+  h4("Next person to be served:", next_person)

@@ -1,5 +1,5 @@
 from testUtils import print_and_assert, getTestResult
-
+from stylepy import h1
 def print_event_numbers(number_list):
     even_numbers = []
     for number in number_list:
@@ -7,7 +7,7 @@ def print_event_numbers(number_list):
             even_numbers.append(number)
     return even_numbers
 
-print('\n >>> Print Event Numbers List Test Cases')
+h1('\n >>> Print Event Numbers List Test Cases')
 print_and_assert(print_event_numbers, [1,2,3,4,5,6], [2,4,6])
 print_and_assert(print_event_numbers, [0], [0])
 print_and_assert(print_event_numbers, [], [])

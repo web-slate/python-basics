@@ -1,3 +1,4 @@
+from stylepy import h1,h2,h3,h4,h5,h6
 from testUtils import solution_title, print_and_assert_new, getTestResult
 from commonUtils import timeComplexity, spaceComplexity
 from stylepy import h1, h2, h3, h4, h5, h6

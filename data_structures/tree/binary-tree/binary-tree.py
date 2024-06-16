@@ -1,5 +1,5 @@
-
-print('\n >>> Binary Tree Implementation')
+from stylepy import h1
+h1('\n >>> Binary Tree Implementation')
 print('- each node has at most two children')
 print('- referred to as the left child and the right child.')
 print('- no specific ordering in terms of how nodes are arranged.')
