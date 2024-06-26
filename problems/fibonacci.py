@@ -1,3 +1,4 @@
+from stylepy import h1,h2,h3,h4,h5,h6
 import time
 
 def getMinutes(elapsed_time):
@@ -9,8 +10,8 @@ def getSeconds(elapsed_time):
     return seconds
 
 # recursive_fibonacci Function
-print('\n >>>> recursive_fibonacci Function to return fibonacci until n');
-print('\n This one time complexity is O(2^n) Exponential and have redundant calculations');
+h1('\n >>>> recursive_fibonacci Function to return fibonacci until n');
+h3('\n This one time complexity is O(2^n) Exponential and have redundant calculations');
 
 def recursive_fibonacci(n):
     if (n < 2):
@@ -20,15 +21,15 @@ def recursive_fibonacci(n):
 
 start_time = time.time() # Start time
 n = 41;
-print('Note: Recursive approach without memoization is highly inefficient for large values of n due to the exponential growth of recursive calls and redundant computations.');
-print(f"recursive_fibonacci({n}) is {recursive_fibonacci(n)}");
+h4('Note: Recursive approach without memoization is highly inefficient for large values of n due to the exponential growth of recursive calls and redundant computations.');
+h5(f"recursive_fibonacci({n}) is {recursive_fibonacci(n)}");
 end_time = time.time() # End time
 
 print(f"This function took {getMinutes(end_time - start_time)} minutes and {getSeconds(end_time - start_time):.2f} seconds")
 
 # memoized_recursive_fibonacci Function
-print('\n >>>> memoized_recursive_fibonacci Function to return fibonacci until n')
-print('\n This one optimized now so Time and Space Complexity is O(n)')
+h1('\n >>>> memoized_recursive_fibonacci Function to return fibonacci until n')
+h4('\n This one optimized now so Time and Space Complexity is O(n)')
 
 def memoized_recursive_fibonacci(n, memoized={0: 0, 1:1}):
     if n not in memoized:
@@ -37,14 +38,14 @@ def memoized_recursive_fibonacci(n, memoized={0: 0, 1:1}):
 
 start_time = time.time() # Start time
 n = 41
-print(f"memoized_recursive_fibonacci({n}) is {recursive_fibonacci(n)}")
+h4(f"memoized_recursive_fibonacci({n}) is {recursive_fibonacci(n)}")
 end_time = time.time() # End time
-print(f"This function took {getMinutes(end_time - start_time)} minutes and {getSeconds(end_time - start_time):.2f} seconds")
+h5(f"This function took {getMinutes(end_time - start_time)} minutes and {getSeconds(end_time - start_time):.2f} seconds")
 
 # iterative_fibonacci Function
 """
 """
-print('\n >>>> iterative_fibonacci Function to return fibonacci until n')
+h1('\n >>>> iterative_fibonacci Function to return fibonacci until n')
 def iterative_fibonacci(n):
     """
     Calculate the nth Fibonacci number using an iterative approach.
@@ -64,7 +65,7 @@ def iterative_fibonacci(n):
 
 start_time = time.time() # Start time
 n = 7
-print(f"iterative_fibonacci({n}) is {iterative_fibonacci(n)}")
-print('\n This one optimized now so Time Complexity is O(n) and Space Complexity is O(1)');
+h4(f"iterative_fibonacci({n}) is {iterative_fibonacci(n)}")
+h5('\n This one optimized now so Time Complexity is O(n) and Space Complexity is O(1)');
 end_time = time.time() # End time
-print(f"This function took {getMinutes(end_time - start_time)} minutes and {getSeconds(end_time - start_time):.2f} seconds")
+h6(f"This function took {getMinutes(end_time - start_time)} minutes and {getSeconds(end_time - start_time):.2f} seconds")

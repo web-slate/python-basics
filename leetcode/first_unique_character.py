@@ -1,3 +1,4 @@
+from stylepy import h1,h2,h3,h4,h5,h6
 from collections import Counter
 
 def first_uniq_char_brute1(s: str) -> int:
@@ -26,56 +27,56 @@ def first_uniq_char_optimised2(s: str) -> int:
           return i
     return -1
 
-print("Brute-force 1")
+h1("Brute-force 1")
 s = 'leetcode'
 index = first_uniq_char_brute1(s)
-print(f"first non repeating character index {index} for {s} ")
+h3(f"first non repeating character index {index} for {s} ")
 
 s = 'loveleetcode'
 index = first_uniq_char_brute1(s)
-print(f"first non repeating character index {index} for {s} ")
+h3(f"first non repeating character index {index} for {s} ")
 
 s = 'aabb'
 index = first_uniq_char_brute1(s)
-print(f"first non repeating character index {index} for {s} ")
+h3(f"first non repeating character index {index} for {s} ")
 
-print("Brute-force 2")
+h1("Brute-force 2")
 s = 'leetcode'
 index = first_uniq_char_brute2(s)
-print(f"first non repeating character index {index} for {s} ")
+h3(f"first non repeating character index {index} for {s} ")
 
 s = 'loveleetcode'
 index = first_uniq_char_brute2(s)
-print(f"first non repeating character index {index} for {s} ")
+h3(f"first non repeating character index {index} for {s} ")
 
 s = 'aabb'
 index = first_uniq_char_brute2(s)
-print(f"first non repeating character index {index} for {s} ")
+h3(f"first non repeating character index {index} for {s} ")
 
 
-print("Optimised")
+h1("Optimised")
 s = 'leetcode'
 index = first_uniq_char_optimised(s)
-print(f"first non repeating character index {index} for {s} ")
+h3(f"first non repeating character index {index} for {s} ")
 
 s = 'loveleetcode'
 index = first_uniq_char_optimised(s)
-print(f"first non repeating character index {index} for {s} ")
+h3(f"first non repeating character index {index} for {s} ")
 
 s = 'aabb'
 index = first_uniq_char_optimised(s)
-print(f"first non repeating character index {index} for {s} ")
+h3(f"first non repeating character index {index} for {s} ")
 
 
-print("Optimised 2 ")
+h1("Optimised 2 ")
 s = 'leetcode'
 index = first_uniq_char_optimised2(s)
-print(f"first non repeating character index {index} for {s} ")
+h3(f"first non repeating character index {index} for {s} ")
 
 s = 'loveleetcode'
 index = first_uniq_char_optimised2(s)
-print(f"first non repeating character index {index} for {s} ")
+h3(f"first non repeating character index {index} for {s} ")
 
 s = 'aabb'
 index = first_uniq_char_optimised2(s)
-print(f"first non repeating character index {index} for {s} ")
+h3(f"first non repeating character index {index} for {s} ")

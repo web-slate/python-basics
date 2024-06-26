@@ -8,13 +8,13 @@ h2('\n >>>> helloWorld Function with outside variable')
 
 type = 'World'
 def helloWorld():
-    print('Hello ' + type + ' from helloWorld()')
+    h6('Hello ' + type + ' from helloWorld()')
 
 # Calling the function
 helloWorld()
 
 # helloWorld Function with hoisting variable throws `NameError: name 'hoistedVariable' is not defined`
-print('\n >>>> helloWorld Function with hoisting variable throws `NameError`')
+h6('\n >>>> helloWorld Function with hoisting variable throws `NameError`')
 # def helloWorld():
 #     print('Hello ' + hoistedVariable + ' from helloWorld()')
 
@@ -22,43 +22,43 @@ print('\n >>>> helloWorld Function with hoisting variable throws `NameError`')
 # hoistedVariable = 'hoisted world'
 
 # Greet Function
-print('\n >>>> Greet Function passed with `name` variable')
+h4('\n >>>> Greet Function passed with `name` variable')
 def greet(name):
     print('Hello ' + name)
 
 # greet() # will throws TypeError: greet() missing 1 required positional argument: 'name'
 # print(" >>>> when no parameter passed throws TypeError: greet() missing 1 required positional argument: 'name'")
 
-print(" >>>> passing name parameter returns Hello John")
+h4(" >>>> passing name parameter returns Hello John")
 name = 'John'
 greet(name)
 
 # Global Variable
-print('\n >>>> Global and Local Variable Samples')
+h4('\n >>>> Global and Local Variable Samples')
 myAge = 21
 
 def afterGraduation():
     myAge = 24
     # myAge will be overwritten as 24.
-    print(f"inside afterGraduation: I'm {myAge} years old") 
+    h6(f"inside afterGraduation: I'm {myAge} years old") 
     
 # myAge will return global value 21.
-print(f"outside before afterGraduation call: I'm {myAge} year old") 
+h6(f"outside before afterGraduation call: I'm {myAge} year old") 
 afterGraduation()
-print(f"outside after afterGraduation call: I'm {myAge} year old") 
+h6(f"outside after afterGraduation call: I'm {myAge} year old") 
 
 # Global Variable with global keyword.
-print('\n >>>> Global Variable with global keyword')
+h4('\n >>>> Global Variable with global keyword')
 
 manhood = "bachelor"
 
 def afterMarriage():
     global manhood
-    print(f"inside afterMarriage before change: I'm {manhood}") 
+    h6(f"inside afterMarriage before change: I'm {manhood}") 
     manhood = "Husband"
-    print(f"inside afterMarriage after change: I'm {manhood}") 
+    h6(f"inside afterMarriage after change: I'm {manhood}") 
     
 # manhood will return global value Husband.
-h3(f"outside before afterMarriage: I'm {manhood}")
+h6(f"outside before afterMarriage: I'm {manhood}")
 afterMarriage()
-h4(f"outside after afterMarriage: I'm {manhood}")
+h6(f"outside after afterMarriage: I'm {manhood}")

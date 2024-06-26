@@ -12,7 +12,7 @@ class Queue:
       if not self.is_empty():
         return self.items.pop(0)
       else:
-        print("Queue is empty")
+        h4("Queue is empty")
         return None
 
     def is_empty(self):
@@ -28,7 +28,7 @@ class Queue:
       if not self.is_empty():
         return self.items[0]
       else:
-        print("Queue is empty")
+        h4("Queue is empty")
         return None
 
 # Example usage:

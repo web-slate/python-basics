@@ -1,3 +1,4 @@
+from stylepy import h1,h2,h3,h4,h5,h6
 def quick_sort(arr):
     if len(arr) <= 1:
         return arr
@@ -23,5 +24,5 @@ def quick_sort(arr):
         return [pivot] + equal_to_pivot + quick_sort(greater_than_pivot)
 
 
-print('Sorted', quick_sort([5,3,1,8]));
-print('Sorted with duplicates', quick_sort([8,1,1,8,1,1,1,1]));
+h4('Sorted', quick_sort([5,3,1,8]));
+h4('Sorted with duplicates', quick_sort([8,1,1,8,1,1,1,1]));

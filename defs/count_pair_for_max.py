@@ -1,7 +1,8 @@
+from stylepy import h1,h2,h3,h4,h5,h6
 from testUtils import print_and_assert, getTestResult
 
-print('\n >>> Find Two Sum is equal Max Number in list')
-print(' >>>> Count Pairs for Sum of 2 numbers = Max Number')
+h2('\n >>> Find Two Sum is equal Max Number in list')
+h2(' >>>> Count Pairs for Sum of 2 numbers = Max Number')
 
 def count_pairs_which_sum_to_max(number_list):
     max_number = max(number_list)
@@ -18,7 +19,7 @@ def count_pairs_which_sum_to_max(number_list):
     
     return count
 
-print('\n >>> Test Cases')
+h2('\n >>> Test Cases')
 print_and_assert(count_pairs_which_sum_to_max, [1,2,3,4,5,6], [2,4,6])
 
 getTestResult('Find Two Sum is equal Max Number in list')

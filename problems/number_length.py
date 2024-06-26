@@ -1,7 +1,7 @@
 from testUtils import print_and_assert, getTestResult
-
-print('\n >>> Number Length Example without using len() def')
-print(' >>> number_length(0)')
+from stylepy import h1,h2,h3,h4
+h2('\n >>> Number Length Example without using len() def')
+h3(' >>> number_length(0)')
 
 def number_length(number):
     if number == 0:
