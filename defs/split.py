@@ -1,9 +1,9 @@
-from stylepy import h1
+from stylepy import h1,h4,h2,h3
 h1('\n >>>> Split String Example');
 
 original = "Hello, World!"
 target = original.split(",")
-print("Using Native Split function: ", target)
+h3("Using Native Split function: ", target)
 
 # Faced `TabError: inconsistent use of tabs and spaces in indentation`
 
@@ -23,5 +23,5 @@ def splitString(text, sepearator):
 
   return splitted_list
 
-print('Using Custom function: ', splitString(original, ','))
-print('Custom Def Time and Space Complexity is O(n)')
+h4('Using Custom function: ', splitString(original, ','))
+h4('Custom Def Time and Space Complexity is O(n)')

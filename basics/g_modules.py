@@ -1,3 +1,3 @@
 import random
-
-print(random.randrange(1, 10))
+from stylepy import h2
+h2(random.randrange(1, 10))

@@ -4,7 +4,7 @@ from stylepy import h1, h2, h3, h4, h5, h6
 h1('1, 2 and 3 Bit Basics')
 
 h2('1 Bit')
-print('''
+h6('''
 | Decimal | Binary |
 |---------|--------|
 | 0       | 0      |
@@ -12,7 +12,7 @@ print('''
 ''')
 
 h2('2 Bit')
-print('''
+h4('''
 | Decimal | Binary |
 |---------|--------|
 | 0       | 00     |
@@ -22,8 +22,8 @@ print('''
 ''')
 
 h2('3 Bit')
-print('In the 3-bit table, only decimal numbers up to 7 are included, as the binary representation of 8 (1000) requires 4 bits.')
-print('''
+h4('In the 3-bit table, only decimal numbers up to 7 are included, as the binary representation of 8 (1000) requires 4 bits.')
+h4('''
 | Decimal | Binary |
 |---------|--------|
 | 0       | 000    |

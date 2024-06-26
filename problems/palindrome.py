@@ -1,8 +1,8 @@
 from testUtils import print_and_assert, getTestResult, solution_title
-
-print('\n >>> Is Palindrome Example')
-print('\n >>> The concept of a palindrome focuses solely on the sequence of characters, disregarding spaces and letter casing.')
-print(' >>> palindrome(word)')
+from stylepy import h1,h2,h3,h4
+h1('\n >>> Is Palindrome Example')
+h2('\n >>> The concept of a palindrome focuses solely on the sequence of characters, disregarding spaces and letter casing.')
+h3(' >>> palindrome(word)')
 
 class palindromSolutions(object):
     def using_string_solution(self, word):

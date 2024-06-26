@@ -6,7 +6,7 @@ from stylepy import h1, h2, h3, h4, h5, h6
 h1('\n >>> Linked List Implementation')
 h2('>>> 1. Create Node Class with 2 properties 1. data and 2. next property')
 h3('>>> 2. Create LinkedList Class with property called head')
-print('''
+h3('''
       Sample Representation of Data
         node(
             data=1,

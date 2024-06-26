@@ -47,5 +47,5 @@ def myfunc():
     myfunc2()
   
 myfunc()
-print("global variable is x ", x)
+h3("global variable is x ", x)
 

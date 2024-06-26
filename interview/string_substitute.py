@@ -1,6 +1,6 @@
 # python module.py  interview/string_substitute.py
 from utilities.testUtils import solution_title, print_and_assert_new, getTestResult
-from utilities.commonUtils import timeComplexity, spaceComplexity
+#from utilities.commonUtils import timeComplexity, spaceComplexity
 
 print('\n >>> Substituting character')
 print('''

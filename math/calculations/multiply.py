@@ -10,9 +10,9 @@ def multiplyWithAddTest(a, b):
         return f"Invalid parameter value {a}, {b}"
 
 h1(' >>> multiplyWithAddTest')
-print(multiplyWithAddTest(7, 5))      # Valid numerical input
-print(multiplyWithAddTest(7, "abc"))  # Invalid input
-print(multiplyWithAddTest("xyz", 3))  # Invalid input
+h4(multiplyWithAddTest(7, 5))      # Valid numerical input
+h4(multiplyWithAddTest(7, "abc"))  # Invalid input
+h4(multiplyWithAddTest("xyz", 3))  # Invalid input
 
 
 def multiplyWithTypeCheck(a, b):
@@ -29,8 +29,8 @@ def multiplyWithTypeCheck(a, b):
         return f"{e}: {a}, {b}"
 
 h1(' >>> multiplyWithTypeCheck')
-print(multiplyWithTypeCheck(7, 5))      # Valid numerical input
-print(multiplyWithTypeCheck(7, "abc"))  # Invalid input
-print(multiplyWithTypeCheck("xyz", 3))  # Invalid input
-print(multiplyWithTypeCheck(7.5, 3))  # Invalid input
+h4(multiplyWithTypeCheck(7, 5))      # Valid numerical input
+h4(multiplyWithTypeCheck(7, "abc"))  # Invalid input
+h4(multiplyWithTypeCheck("xyz", 3))  # Invalid input
+h4(multiplyWithTypeCheck(7.5, 3))  # Invalid input
 

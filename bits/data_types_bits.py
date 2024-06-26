@@ -3,7 +3,7 @@ from stylepy import ordered_list, bullet_list
 
 h1('Data Type Bit Sizes')
 
-print('''
+h4('''
 | Data Type  | Typical Maximum Bits       | Notes                                           |
 |------------|----------------------------|-------------------------------------------------|
 | int        | Variable (system-dependent)| Limited by available memory, can be very large. |

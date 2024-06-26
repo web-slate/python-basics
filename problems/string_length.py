@@ -1,15 +1,15 @@
-from stylepy import h1,h2
+from stylepy import h1,h2,h3
 from testUtils import print_and_assert, getTestResult
 
 h1('\n >>> String Length Example without using len() def')
-print(' >>> string_length()')
+h2(' >>> string_length()')
 def string_length(text):
     count = 0;
     for character in text:
         count += 1
     return count;
 
-h2('\n >>> String Length Test Cases')
+h3('\n >>> String Length Test Cases')
 print_and_assert(string_length, 'Venkat', 6)
 print_and_assert(string_length, 'R.Venkat', 8)
 print_and_assert(string_length, 'Python', 6)
