@@ -13,17 +13,19 @@ class WashingMachine:
     price = 999.0
     water_consumption = 2.5
 
-    def wash_clothes():
+    def wash_clothes(self):
         h3("washing initiated")
 
 class Bus:
+    length=0
     brand = "Volvo"
     model = "V9"
     capacity = 50
     fuel_type = "Diesel"
     price = 250000
 
-
+def get_length():
+        return Bus.length
 
 
 

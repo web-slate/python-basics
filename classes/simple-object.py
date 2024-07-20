@@ -2,7 +2,7 @@
 from simple_class import Bus, Fruit, WashingMachine
 
 bus = Bus()
-print(f"Bus lenghth is {bus.model}")
+print(f"Bus Model is {bus.model}")
 
 fruit = Fruit()
 print(f"Fruit name : {fruit.name}, color: {fruit.color} ")
