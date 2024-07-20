@@ -13,7 +13,7 @@ class WashingMachine:
     price = 999.0
     water_consumption = 2.5
 
-    def wash_clothes():
+    def wash_clothes(self):
         h3("washing initiated")
 
 class Bus:
