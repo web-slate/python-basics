@@ -17,13 +17,15 @@ class WashingMachine:
         h3("washing initiated")
 
 class Bus:
+    length=0
     brand = "Volvo"
     model = "V9"
     capacity = 50
     fuel_type = "Diesel"
     price = 250000
 
-
+def get_length():
+        return Bus.length
 
 
 

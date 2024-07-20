@@ -1,25 +1,26 @@
-# To determine whether your Mac is 32-bit or 64-bit, you can use a command in the Terminal. 
+from stylepy import h1, h2, h3, h4, h5, h6
+h1('To determine whether your Mac is 32-bit or 64-bit, you can use a command in the Terminal. ') 
 
-# Below for mac / linux system.
-```
-uname -m 
-```
+h2('Below for mac / linux system.') 
+
+h3("uname -m ")
+
 
 # Output `x86_64``
 
 # Windows
 
-```
-wmic os get osarchitecture
-```
+
+h4("wmic os get osarchitecture")
+
 
 # Output below
 
-```
-OSArchitecture
 
-64-bit
-```
+#OSArchitecture
+
+#64-bit
+
 
 # is integer variable depends on my bit system ?
 
