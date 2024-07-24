@@ -1,8 +1,9 @@
 # python module.py data_types/binary/bytearray/basics.py
 # python -m data_types.binary.bytearray data_types/binary/bytearray/basics.py
 
-import data_types.commonUtils as utils
 
-utils.print_h1('Byte Array Basics')
+from data_types.commonUtils import print_h1, print_blockquote
 
-utils.print_blockquote([])
+print_h1('Byte Array Basics')
+
+print_blockquote([])

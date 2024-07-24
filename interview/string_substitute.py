@@ -1,9 +1,9 @@
 # python module.py  interview/string_substitute.py
 from utilities.testUtils import solution_title, print_and_assert_new, getTestResult
-#from utilities.commonUtils import timeComplexity, spaceComplexity
-
-print('\n >>> Substituting character')
-print('''
+from utilities.commonUtils import timeComplexity, spaceComplexity
+from stylepy import h1,h4
+h1('\n >>> Substituting character')
+h4('''
      * Encodes text by substituting character with another one provided in the pair.
      * For example pair "ab" defines all "a" chars will be replaced with "b" and all "b" chars will be replaced with "a"
      * Examples:

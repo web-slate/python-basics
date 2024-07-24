@@ -35,9 +35,9 @@ class Bus:
     
 
 bus = Bus()
-print(bus)
+h4(bus)
 # bus.length
 # print(bus.area())
-print(f"Bus object has created")
+h5(f"Bus object has created")
 
     
