@@ -1,0 +1,39 @@
+site_name: 'Webslate - Python Basics'
+site_url: 'https://web-slate.github.io/python-basics/'
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+plugins:
+  - search
+  - gen_nav:
+      enabled: true
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          paths: [src]  # Path to your Python source files
+          options:
+            show_source: true
+
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums: true
+  - pymdownx.superfences
+
+nav:
+  - Basics: basics/introduction.md
+  - Data Types: data_types/introduction.md
+  - Methods: basics/methods/introduction.md
+  - Recursions: basics/recursions/introduction.md
+  - Data Structures: data_structures/introduction.md
+  - OOPs: oops/introduction.md
+  - Algorithms: algorithms/introduction.md
+  - Leet Code: leet_code/introduction.md
