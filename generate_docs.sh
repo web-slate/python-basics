@@ -151,6 +151,12 @@ site_name: 'Webslate - Python Basics'
 site_url: 'https://web-slate.github.io/python-basics/'
 theme:
   name: material
+  palette:
+    primary: deep purple
+    accent: deep purple
+  font:
+    text: Roboto
+    code: Roboto Mono
   features:
     - navigation.sections
     - navigation.footer
