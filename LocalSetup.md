@@ -10,8 +10,9 @@ python -m venv venv
 
 > Windows
 
+
 ```
-venv\Scripts\activate
+source venv/scripts/activate
 ```
 
 > MacOS
@@ -31,8 +32,8 @@ deactivate
 ## Local Setup
 
 ```
-python3 -m pip install --upgrade pip
-pip install mkdocs mkdocs-material mkdocs-gen-nav-plugin mkdocs-awesome-pages-plugin
+python -m pip install --upgrade pip
+pip install stylepy mkdocs mkdocs-material mkdocs-gen-nav-plugin mkdocs-awesome-pages-plugin pymdown-extensions mkdocstrings
 chmod +x ./generate_docs.sh
 ./generate_docs.sh
 mkdocs serve
