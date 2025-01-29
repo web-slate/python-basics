@@ -2,654 +2,678 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://web-slate.github.io/python-basics/</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/Inheritance</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/Inheritance/inheritance_readme</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/Inheritance/simple_inheritance</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/algorithms/search</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/algorithms/search/binary_search</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/basics</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/basics/a_basics</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/basics/b_variable_scope</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/basics/b_variables</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
+    </url>
+    <url>
+         <loc>https://web-slate.github.io/python-basics/basics/basics</loc>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/basics/c_if</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/basics/d_data_types</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
+    </url>
+    <url>
+         <loc>https://web-slate.github.io/python-basics/basics/data_types</loc>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/basics/e_strings</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/basics/errors</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/basics/f_numbers</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/basics/g_boolean</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/basics/g_modules</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/basics/h_operators</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/basics/i_range</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
+    </url>
+    <url>
+         <loc>https://web-slate.github.io/python-basics/basics/if</loc>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/basics/j_sequence_data_types</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/basics/rough</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
+    </url>
+    <url>
+         <loc>https://web-slate.github.io/python-basics/basics/strings</loc>
+         <lastmod>2025-01-29</lastmod>
+    </url>
+    <url>
+         <loc>https://web-slate.github.io/python-basics/basics/variable_scope</loc>
+         <lastmod>2025-01-29</lastmod>
+    </url>
+    <url>
+         <loc>https://web-slate.github.io/python-basics/basics/variables</loc>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/bits</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/bits/and_32_bits</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/bits/1_to_3_bits</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/bits/4_and_8_bits</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/bits/and_128_bits</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/bits/basics</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/bits/data_types_bits</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/classes</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/classes/__str__</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/classes/change_object_properties</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/classes/classes_readme</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/classes/delete-object-properties</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/classes/init-example</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/classes/methods</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/classes/pass-statement</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/classes/self-parameter</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/classes/simple-object</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/classes/simple_class</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/controls</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/controls/if</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/ReadMe</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/array/ReadMe</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/graph/ReadMe</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/heap/ReadMe</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/linked_list</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/linked_list/ReadMe</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/linked_list/circular-linked-list</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/linked_list/commonUtils</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/linked_list/double-linked-list</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/linked_list/linked-list</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/linked_list/testUtils</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/priority_queue/priority_queue_readme</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/queue</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/queue/ReadMe</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/queue/basics_queue</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/queue/circular</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/queue/queue_collections_deque</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/queue/queue_lifo</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/queue/queue_list</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/queue/queue_priority</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/stack/ReadMe</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/tree/ReadME</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/tree/binary-search-tree/binary-tree-vs-binary-search-tree</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/tree/binary-tree</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/tree/binary-tree/binary-tree</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/tree/binary-tree/find-maximum-depth</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/tree/binary-tree/traversal</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/tree/general</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_structures/tree/general/simple-tree</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/commonUtils</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/binary/bytearray</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/binary/bytearray/basics</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/binary/bytes</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/binary/bytes/basics</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/binary/memoryview</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/binary/memoryview/basics</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/boolean</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/boolean/basics</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/linear/array</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/linear/array/array</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/linear/list</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/linear/list/basics</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/linear/list/list_advanced</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/linear/tuple</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/linear/tuple/basics</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/non_linear/dictionaries</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/non_linear/dictionaries/basics</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/non_linear/dictionaries/collision</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/non_linear/set</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/non_linear/set/basics</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/numeric/complex</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/numeric/complex/basics</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/numeric/float</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/numeric/float/commonUtils</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/numeric/float/iteration</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/numeric/float/testUtils</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/numeric/integer</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/numeric/integer/iterations</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/string</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/string/basics</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/string/iterations</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/data_types/string/slicing</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/defs</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/defs/commonUtils</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/defs/count_pair_for_max</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/defs/print-even-numbers</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/defs/print_all_primes</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/defs/print_even_sequence</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/defs/split</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/defs/testUtils</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/functions</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/functions/lambda</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/functions/simple_function</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/interview</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/interview/find_sum_of_integer_array</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/interview/string_substitute</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/leetcode</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/leetcode/680_valid_palindrom_II_remove_one_char</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/leetcode/__template__</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/leetcode/add_strings</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/leetcode/first_unique_character</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/leetcode/palindrome</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/leetcode/palindrome_number</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/leetcode/palindrome_remove_one_char</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/leetcode/two_sum</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/leetcode/valid_number</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/leetcode/valid_paranthesis</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/leetcode/arrays</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/leetcode/arrays/283_move_zeroes_easy</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/leetcode/strings</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/leetcode/strings/Add_Binary</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/math</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/math/NumberSystem</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/math/fibonacci</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/math/calculations</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/math/calculations/divide</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/math/calculations/multiply</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/math/calculations/number-system</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/math/number-systems</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/math/number-systems/binary_to_decimal</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/math/number-systems/decimal_to_binary</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/math/number-systems/decimal_to_hexadecimal</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/math/number-systems/hexadecimal_to_decimal</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/math/number-systems/octal_to_decimal</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/math/number-systems/problems</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/operators/bit_wise/shift_left</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/operators/bit_wise/shift_left/basics</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/problems</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/problems/fibonacci</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/problems/number_length</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/problems/palindrome</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/problems/string_length</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/problems/testUtils</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/recursive</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/recursive/recursive_error</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/recursive/stack_frames</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/sorting</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/sorting/quick_sort</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/utilities</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/utilities/commonUtils</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
     <url>
          <loc>https://web-slate.github.io/python-basics/utilities/testUtils</loc>
-         <lastmod>2024-12-04</lastmod>
+         <lastmod>2025-01-29</lastmod>
     </url>
 </urlset>
