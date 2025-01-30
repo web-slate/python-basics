@@ -20,13 +20,7 @@ plugins:
   - search
   - gen_nav:
       enabled: true
-  - mkdocstrings:
-      default_handler: python
-      handlers:
-        python:
-          paths: [src]  # Path to your Python source files
-          options:
-            show_source: true
+
 
 markdown_extensions:
   - pymdownx.highlight:
