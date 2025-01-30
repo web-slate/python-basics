@@ -48,8 +48,6 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/_mkdocstrings.css">
-    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -74,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#import-data_typescommonutils-as-utils" class="md-skip">
+        <a href="#4-and-8-bit-basics" class="md-skip">
           Skip to content
         </a>
       
@@ -1300,6 +1298,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    4 And 8 Bits
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="." class="md-nav__link md-nav__link--active">
         
   
@@ -1309,6 +1318,91 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#4-bits" class="md-nav__link">
+    <span class="md-ellipsis">
+      4 Bits
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4 Bits">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-bits" class="md-nav__link">
+    <span class="md-ellipsis">
+      8 Bits
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8 Bits">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1348,6 +1442,27 @@
   
   <span class="md-ellipsis">
     Basics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data_type_bit_sizes" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Type Bit Sizes
   </span>
   
 
@@ -6407,6 +6522,80 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#4-bits" class="md-nav__link">
+    <span class="md-ellipsis">
+      4 Bits
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4 Bits">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-bits" class="md-nav__link">
+    <span class="md-ellipsis">
+      8 Bits
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8 Bits">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -6420,47 +6609,123 @@
                   
 
 
-<blockquote>
-<p>File Name: 4_and_8_bits.py
-```python</p>
-</blockquote>
-<h1 id="import-data_typescommonutils-as-utils">import data_types.commonUtils as utils</h1>
-<p>from stylepy import h1, h2, h3, h4, h5, h6</p>
-<p>h1('4 and 5 Bit Basics')</p>
-<p>h2('4 Bits')
-h4('Note: 4 bits can represent numbers from 0 to 15 (2^4 - 1).')
-h4('''
-| Decimal | Binary |
-|---------|--------|
-| 0       | 0000   |
-| 1       | 0001   |
-| 2       | 0010   |
-| 3       | 0011   |
-| 4       | 0100   |
-| 5       | 0101   |
-| 6       | 0110   |
-| 7       | 0111   |
-| 8       | 1000   |
-| 9       | 1001   |
-| 10      | 1010   |
-''')</p>
-<p>h2('8 Bits')
-h4('Note: 8 bits can represent numbers from 0 to 255 (2^8 - 1).')
-h4('''
-| Decimal | Binary    |
-|---------|-----------|
-| 0       | 00000000  |
-| 1       | 00000001  |
-| 2       | 00000010  |
-| 3       | 00000011  |
-| 4       | 00000100  |
-| 5       | 00000101  |
-| 6       | 00000110  |
-| 7       | 00000111  |
-| 8       | 00001000  |
-| 9       | 00001001  |
-| 10      | 00001010  |
-''')```</p>
+<h1 id="4-and-8-bit-basics">4 and 8 Bit Basics</h1>
+<h2 id="4-bits">4 Bits</h2>
+<h4 id="_1"></h4>
+<p>Note: 4 bits can represent numbers from 0 to 15 (2^4 - 1).</p>
+<h4 id="_2"></h4>
+<table>
+<thead>
+<tr>
+<th>Decimal</th>
+<th>Binary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0000</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0001</td>
+</tr>
+<tr>
+<td>2</td>
+<td>0010</td>
+</tr>
+<tr>
+<td>3</td>
+<td>0011</td>
+</tr>
+<tr>
+<td>4</td>
+<td>0100</td>
+</tr>
+<tr>
+<td>5</td>
+<td>0101</td>
+</tr>
+<tr>
+<td>6</td>
+<td>0110</td>
+</tr>
+<tr>
+<td>7</td>
+<td>0111</td>
+</tr>
+<tr>
+<td>8</td>
+<td>1000</td>
+</tr>
+<tr>
+<td>9</td>
+<td>1001</td>
+</tr>
+<tr>
+<td>10</td>
+<td>1010</td>
+</tr>
+</tbody>
+</table>
+<h2 id="8-bits">8 Bits</h2>
+<h4 id="_3"></h4>
+<p>Note: 8 bits can represent numbers from 0 to 255 (2^8 - 1).</p>
+<h4 id="_4"></h4>
+<table>
+<thead>
+<tr>
+<th>Decimal</th>
+<th>Binary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>00000000</td>
+</tr>
+<tr>
+<td>1</td>
+<td>00000001</td>
+</tr>
+<tr>
+<td>2</td>
+<td>00000010</td>
+</tr>
+<tr>
+<td>3</td>
+<td>00000011</td>
+</tr>
+<tr>
+<td>4</td>
+<td>00000100</td>
+</tr>
+<tr>
+<td>5</td>
+<td>00000101</td>
+</tr>
+<tr>
+<td>6</td>
+<td>00000110</td>
+</tr>
+<tr>
+<td>7</td>
+<td>00000111</td>
+</tr>
+<tr>
+<td>8</td>
+<td>00001000</td>
+</tr>
+<tr>
+<td>9</td>
+<td>00001001</td>
+</tr>
+<tr>
+<td>10</td>
+<td>00001010</td>
+</tr>
+</tbody>
+</table>
 
 
 
